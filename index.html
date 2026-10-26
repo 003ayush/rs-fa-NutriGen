@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriGen — Personalized Smart Meal Planner</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Clean Header -->
+    <header class="app-header">
+      <div class="brand-section">
+        <div class="brand-icon">🥗</div>
+        <div>
+          <div class="brand-title">
+            NutriGen
+            <span class="brand-badge">Smart Meal Planner</span>
+          </div>
+          <div class="brand-subtitle">
+            Personalized Daily Meal Recommendations & Nutrition Tracking based on your Health Goals
+          </div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="btn-print-plan" class="btn btn-secondary">
+          🖨️ Print / Save Plan
+        </button>
+        <button id="btn-reset-defaults" class="btn btn-primary">
+          🔄 Reset Default Profile
+        </button>
+      </div>
+    </header>
+
+    <!-- Simple Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="mealplan">
+        <span class="tab-icon">🍽️</span> 7-Day Meal Plan
+      </button>
+      <button class="tab-btn" data-tab="biometrics">
+        <span class="tab-icon">👤</span> My Profile & Health Goals
+      </button>
+      <button class="tab-btn" data-tab="catalog">
+        <span class="tab-icon">📖</span> Browse Recipes
+        <span class="badge-pill">79 Healthy Meals</span>
+      </button>
+    </nav>
+
+    <!-- ==================================================================== -->
+    <!-- TAB 1: 7-DAY MEAL PLAN                                               -->
+    <!-- ==================================================================== -->
+    <section id="tab-mealplan" class="tab-content active">
+      
+      <!-- Current Target Overview Bar -->
+      <div class="quick-profile-bar">
+        <div class="profile-summary-items">
+          <div class="profile-stat-item">
+            <span class="profile-stat-label">Active Profile</span>
+            <span class="profile-stat-val" id="banner-profile-desc">25y Female • 60 kg • 165 cm</span>
+          </div>
+          <div class="profile-stat-item">
+            <span class="profile-stat-label">Diet & Preferences</span>
+            <span class="profile-stat-val" id="banner-diet-desc">Vegetarian • Nut-Free</span>
+          </div>
+          <div class="profile-stat-item">
+            <span class="profile-stat-label">Daily Calorie Target</span>
+            <span class="profile-stat-val highlight" id="banner-target-cal">1,587 kcal / day</span>
+          </div>
+          <div class="profile-stat-item">
+            <span class="profile-stat-label">Macronutrient Split</span>
+            <span class="profile-stat-val" id="banner-macros">Protein: 119g • Fat: 53g • Carbs: 159g</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button id="btn-edit-profile-quick" class="btn btn-secondary btn-sm">
+            ✏️ Change Goals
+          </button>
+          <button id="btn-regenerate-quick" class="btn btn-primary btn-sm">
+            ✨ Regenerate Meals
+          </button>
+        </div>
+      </div>
+
+      <!-- 7 Days Navigation Selector -->
+      <div class="days-nav">
+        <button class="day-pill-btn active" data-day="1">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Monday (Day 1)</span>
+            <span class="day-pill-calories">1,421 kcal</span>
+          </div>
+          <span class="day-pill-variance">6 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="2">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Tuesday (Day 2)</span>
+            <span class="day-pill-calories">1,279 kcal</span>
+          </div>
+          <span class="day-pill-variance">8 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="3">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Wednesday (Day 3)</span>
+            <span class="day-pill-calories">1,248 kcal</span>
+          </div>
+          <span class="day-pill-variance">7 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="4">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Thursday (Day 4)</span>
+            <span class="day-pill-calories">1,582 kcal</span>
+          </div>
+          <span class="day-pill-variance">7 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="5">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Friday (Day 5)</span>
+            <span class="day-pill-calories">1,394 kcal</span>
+          </div>
+          <span class="day-pill-variance">6 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="6">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Saturday (Day 6)</span>
+            <span class="day-pill-calories">1,465 kcal</span>
+          </div>
+          <span class="day-pill-variance">6 Meals Planned</span>
+        </button>
+        <button class="day-pill-btn" data-day="7">
+          <div class="day-pill-top">
+            <span class="day-pill-title">Sunday (Day 7)</span>
+            <span class="day-pill-calories">1,388 kcal</span>
+          </div>
+          <span class="day-pill-variance">5 Meals Planned</span>
+        </button>
+      </div>
+
+      <!-- Day Summary Card -->
+      <div class="day-summary-card">
+        <div class="day-hero-info">
+          <h2 id="day-hero-title">Day 1 Meal Plan</h2>
+          <p>Balanced and personalized meals carefully selected to meet your daily energy needs and weight loss goal.</p>
+          <div id="day-target-cal-badge" class="calorie-target-badge">
+            🎯 Target: <strong>1,587 kcal</strong>
+          </div>
+        </div>
+
+        <div class="macros-progress-grid">
+          <!-- Total Calories -->
+          <div class="macro-box">
+            <span class="macro-box-title">Total Calories</span>
+            <span class="macro-box-val" id="day-tot-cal">1,421</span>
+            <span class="macro-box-target" id="day-cal-target">Target: 1,587 kcal (90%)</span>
+            <div class="macro-progress-bar-bg">
+              <div id="day-cal-bar" class="macro-progress-bar-fill" style="width: 90%; background: var(--primary);"></div>
+            </div>
+          </div>
+
+          <!-- Protein -->
+          <div class="macro-box protein">
+            <span class="macro-box-title">Protein</span>
+            <span class="macro-box-val" id="day-tot-protein">39 g</span>
+            <span class="macro-box-target" id="day-protein-target">Target: 119 g</span>
+            <div class="macro-progress-bar-bg">
+              <div id="day-protein-bar" class="macro-progress-bar-fill" style="width: 33%; background: #3b82f6;"></div>
+            </div>
+          </div>
+
+          <!-- Healthy Fat -->
+          <div class="macro-box fat">
+            <span class="macro-box-title">Healthy Fats</span>
+            <span class="macro-box-val" id="day-tot-fat">41 g</span>
+            <span class="macro-box-target" id="day-fat-target">Target: 53 g</span>
+            <div class="macro-progress-bar-bg">
+              <div id="day-fat-bar" class="macro-progress-bar-fill" style="width: 77%; background: #f59e0b;"></div>
+            </div>
+          </div>
+
+          <!-- Carbs -->
+          <div class="macro-box carbs">
+            <span class="macro-box-title">Carbohydrates</span>
+            <span class="macro-box-val" id="day-tot-carbs">226 g</span>
+            <span class="macro-box-target" id="day-carbs-target">Target: 159 g</span>
+            <div class="macro-progress-bar-bg">
+              <div id="day-carbs-bar" class="macro-progress-bar-fill" style="width: 100%; background: #8b5cf6;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meals Header -->
+      <div class="meals-section-title">
+        <span>🥗 Recommended Meals for Today</span>
+        <span style="font-size: 13px; color: var(--text-muted); font-weight: 500;">
+          Click "View Recipe" to see ingredients & cooking steps
+        </span>
+      </div>
+
+      <!-- Meals Grid -->
+      <div id="meals-grid" class="meals-grid">
+        <!-- Rendered by app.js -->
+      </div>
+
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- TAB 2: MY PROFILE & HEALTH GOALS                                    -->
+    <!-- ==================================================================== -->
+    <section id="tab-biometrics" class="tab-content">
+      <div class="biometrics-layout">
+        
+        <!-- Input Form -->
+        <div class="card">
+          <h2 class="card-title">👤 User Body & Health Profile</h2>
+          <p class="card-subtitle">Enter your measurements to calculate personalized daily calorie and nutrition targets.</p>
+          
+          <!-- Age -->
+          <div class="form-group">
+            <div class="form-label">
+              <span>Age</span>
+              <span id="val-age" class="val-display">25 years</span>
+            </div>
+            <input type="range" id="input-age" class="range-slider" min="15" max="80" value="25">
+          </div>
+
+          <!-- Gender -->
+          <div class="form-group">
+            <label class="form-label">Gender</label>
+            <div class="radio-pills-group">
+              <div class="radio-pill">
+                <input type="radio" id="sex-female" name="sex" value="female" checked>
+                <label for="sex-female">Female</label>
+              </div>
+              <div class="radio-pill">
+                <input type="radio" id="sex-male" name="sex" value="male">
+                <label for="sex-male">Male</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weight -->
+          <div class="form-group">
+            <div class="form-label">
+              <span>Current Weight</span>
+              <span id="val-weight" class="val-display">60 kg</span>
+            </div>
+            <input type="range" id="input-weight" class="range-slider" min="35" max="130" value="60">
+          </div>
+
+          <!-- Height -->
+          <div class="form-group">
+            <div class="form-label">
+              <span>Height</span>
+              <span id="val-height" class="val-display">165 cm</span>
+            </div>
+            <input type="range" id="input-height" class="range-slider" min="130" max="210" value="165">
+          </div>
+
+          <!-- Activity Level -->
+          <div class="form-group">
+            <label class="form-label" for="input-activity">Activity Level</label>
+            <select id="input-activity" class="select-input">
+              <option value="sedentary">Sedentary (Little to no exercise)</option>
+              <option value="lightly_active">Lightly Active (Exercise 1-3 days/week)</option>
+              <option value="moderate" selected>Moderately Active (Exercise 3-5 days/week)</option>
+              <option value="very_active">Very Active (Heavy exercise 6-7 days/week)</option>
+              <option value="extra_active">Extra Active (Hard training / physical work)</option>
+            </select>
+          </div>
+
+          <!-- Goal -->
+          <div class="form-group">
+            <label class="form-label">Health & Fitness Goal</label>
+            <div class="radio-pills-group three-col">
+              <div class="radio-pill">
+                <input type="radio" id="goal-loss" name="goal" value="weight_loss" checked>
+                <label for="goal-loss">Weight Loss</label>
+              </div>
+              <div class="radio-pill">
+                <input type="radio" id="goal-maint" name="goal" value="maintenance">
+                <label for="goal-maint">Maintain</label>
+              </div>
+              <div class="radio-pill">
+                <input type="radio" id="goal-gain" name="goal" value="weight_gain">
+                <label for="goal-gain">Weight Gain</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dietary Preference -->
+          <div class="form-group">
+            <label class="form-label" for="input-diet">Diet Preference</label>
+            <select id="input-diet" class="select-input">
+              <option value="vegetarian" selected>Vegetarian (Plant-based + dairy)</option>
+              <option value="vegan">Vegan (100% strictly plant-based)</option>
+              <option value="standard">Standard / Everything</option>
+            </select>
+          </div>
+
+          <!-- Allergies -->
+          <div class="form-group">
+            <label class="form-label">Allergies to Avoid</label>
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <label style="font-size: 13px; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;">
+                <input type="checkbox" class="allergy-checkbox" value="nuts" checked> 🥜 Nuts
+              </label>
+              <label style="font-size: 13px; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;">
+                <input type="checkbox" class="allergy-checkbox" value="dairy"> 🥛 Dairy
+              </label>
+              <label style="font-size: 13px; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;">
+                <input type="checkbox" class="allergy-checkbox" value="gluten"> 🌾 Gluten
+              </label>
+              <label style="font-size: 13px; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;">
+                <input type="checkbox" class="allergy-checkbox" value="egg"> 🥚 Egg
+              </label>
+            </div>
+          </div>
+
+          <button id="btn-apply-biometrics" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 10px;">
+            ✨ Save Profile & Generate Meal Plan
+          </button>
+        </div>
+
+        <!-- Calculated Health Indicators -->
+        <div>
+          <div class="biometrics-results-grid">
+            
+            <!-- Target Calories -->
+            <div class="biometric-display-card" style="border-color: rgba(16, 185, 129, 0.4);">
+              <div class="biometric-display-header">
+                <span class="biometric-label">Daily Recommended Calories</span>
+                <span style="font-size: 20px;">🎯</span>
+              </div>
+              <div class="biometric-val-large" style="color: var(--primary);" id="res-target-cal">1,587 <span>kcal/day</span></div>
+              <p style="font-size: 12.5px; color: var(--text-muted); margin-top: 6px;">
+                Includes a healthy deficit (-500 kcal) for gradual, sustainable fat loss.
+              </p>
+            </div>
+
+            <!-- BMI -->
+            <div class="biometric-display-card">
+              <div class="biometric-display-header">
+                <span class="biometric-label">Body Mass Index (BMI)</span>
+                <span style="font-size: 20px;">⚖️</span>
+              </div>
+              <div class="biometric-val-large" id="res-bmi">22.04 <span class="bmi-badge bmi-normal">Normal weight</span></div>
+              <p style="font-size: 12.5px; color: var(--text-muted); margin-top: 6px;">
+                Healthy adult weight category based on standard WHO guidelines.
+              </p>
+            </div>
+
+            <!-- BMR -->
+            <div class="biometric-display-card">
+              <div class="biometric-display-header">
+                <span class="biometric-label">Basal Metabolic Rate (BMR)</span>
+                <span style="font-size: 20px;">🔥</span>
+              </div>
+              <div class="biometric-val-large" id="res-bmr">1,347 <span>kcal</span></div>
+              <p style="font-size: 12.5px; color: var(--text-muted); margin-top: 6px;">
+                Base calories your body burns naturally every day while at rest.
+              </p>
+            </div>
+
+            <!-- Daily Expenditure -->
+            <div class="biometric-display-card">
+              <div class="biometric-display-header">
+                <span class="biometric-label">Total Daily Energy (TDEE)</span>
+                <span style="font-size: 20px;">🏃</span>
+              </div>
+              <div class="biometric-val-large" id="res-tdee">2,087 <span>kcal</span></div>
+              <p style="font-size: 12.5px; color: var(--text-muted); margin-top: 6px;">
+                Calories burned including your moderate daily activity and workouts.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Macro Allocation -->
+          <div class="card">
+            <h3 class="card-title" style="font-size: 17px; margin-bottom: 16px;">
+              🥑 Recommended Daily Nutrition Breakdown
+            </h3>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+              <div style="background: var(--bg-surface); padding: 16px; border-radius: var(--radius-md); border-left: 3px solid #3b82f6;">
+                <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Protein (30%)</span>
+                <div style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; color: #ffffff;" id="res-protein">119 g</div>
+                <span style="font-size: 11px; color: var(--text-secondary);">For muscle repair & fullness</span>
+              </div>
+              <div style="background: var(--bg-surface); padding: 16px; border-radius: var(--radius-md); border-left: 3px solid #f59e0b;">
+                <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Healthy Fats (30%)</span>
+                <div style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; color: #ffffff;" id="res-fat">53 g</div>
+                <span style="font-size: 11px; color: var(--text-secondary);">For essential body wellness</span>
+              </div>
+              <div style="background: var(--bg-surface); padding: 16px; border-radius: var(--radius-md); border-left: 3px solid #8b5cf6;">
+                <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Carbohydrates (40%)</span>
+                <div style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; color: #ffffff;" id="res-carbs">159 g</div>
+                <span style="font-size: 11px; color: var(--text-secondary);">For clean, sustained energy</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- TAB 3: BROWSE RECIPES                                               -->
+    <!-- ==================================================================== -->
+    <section id="tab-catalog" class="tab-content">
+      
+      <!-- Search & Filters -->
+      <div class="card" style="margin-bottom: 24px;">
+        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; align-items: flex-end;">
+          <div>
+            <label class="form-label" for="catalog-search">Search Dishes or Ingredients</label>
+            <input type="text" id="catalog-search" class="select-input" placeholder="e.g. Risotto, Quinoa, Soup, Curry, Chili...">
+          </div>
+          <div>
+            <label class="form-label" for="catalog-filter-category">Meal Type</label>
+            <select id="catalog-filter-category" class="select-input">
+              <option value="all">All Meals</option>
+              <option value="Main Dish">Main Dishes</option>
+              <option value="Soup / Salad">Soups & Salads</option>
+              <option value="Side / Snack">Sides & Snacks</option>
+            </select>
+          </div>
+          <div>
+            <div class="form-label">
+              <span>Maximum Calories</span>
+              <span id="catalog-cal-val" class="val-display">&le; 1,500 kcal</span>
+            </div>
+            <input type="range" id="catalog-filter-cal" class="range-slider" min="50" max="1500" value="1500" step="50">
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px;">
+        <span id="catalog-count-badge" class="brand-badge" style="background: rgba(16, 185, 129, 0.15); color: var(--primary);">
+          79 Recipes Available
+        </span>
+        <span style="font-size: 13px; color: var(--text-muted);">Filtered for Vegetarian & Allergen safety</span>
+      </div>
+
+      <div id="catalog-grid" class="meals-grid">
+        <!-- Rendered by app.js -->
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- ==================================================================== -->
+  <!-- MODAL: RECIPE DETAIL VIEW                                            -->
+  <!-- ==================================================================== -->
+  <div id="recipe-modal-overlay" class="modal-overlay">
+    <div class="modal-content">
+      <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+      
+      <div style="margin-bottom: 20px;">
+        <span class="brand-badge" style="background: rgba(16, 185, 129, 0.15); color: var(--primary);">
+          Healthy Recipe & Instructions
+        </span>
+        <h2 id="modal-recipe-title" style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; margin-top: 6px;">
+          Recipe Title
+        </h2>
+      </div>
+
+      <!-- Quick Nutrition Cards -->
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px;">
+        <div style="background: var(--bg-surface); padding: 12px; border-radius: var(--radius-sm); text-align: center;">
+          <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Calories</span>
+          <div id="modal-recipe-cal" style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary);">350 kcal</div>
+        </div>
+        <div style="background: var(--bg-surface); padding: 12px; border-radius: var(--radius-sm); text-align: center;">
+          <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Protein</span>
+          <div id="modal-recipe-prot" style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: #3b82f6;">12 g</div>
+        </div>
+        <div style="background: var(--bg-surface); padding: 12px; border-radius: var(--radius-sm); text-align: center;">
+          <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Fat</span>
+          <div id="modal-recipe-fat" style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: #f59e0b;">10 g</div>
+        </div>
+        <div style="background: var(--bg-surface); padding: 12px; border-radius: var(--radius-sm); text-align: center;">
+          <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Carbs</span>
+          <div id="modal-recipe-carbs" style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: #8b5cf6;">45 g</div>
+        </div>
+      </div>
+
+      <!-- Recommendation Match Badge -->
+      <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--radius-md); padding: 14px 18px; margin-bottom: 22px; display: flex; align-items: center; justify-content: space-between;">
+        <span style="font-size: 14px; font-weight: 600; color: #ffffff;">
+          🌟 Goal Recommendation Match
+        </span>
+        <span id="modal-match-tag" class="brand-badge" style="background: var(--primary); color: #064e3b; font-size: 12px; font-weight: 800;">
+          98% Match
+        </span>
+      </div>
+
+      <!-- Preparation Instructions -->
+      <div>
+        <h4 style="font-size: 15px; font-weight: 700; margin-bottom: 10px;">
+          📖 How to Prepare & Cook
+        </h4>
+        <p id="modal-recipe-instructions" style="font-size: 14px; line-height: 1.8; color: var(--text-secondary); background: var(--bg-surface); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); max-height: 250px; overflow-y: auto;">
+          Cooking directions...
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Data & Application Logic -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

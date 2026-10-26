@@ -1,0 +1,1090 @@
+
+============================== CELL 4 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+BMR: 1346.65, TDEE: 2087.31
+Target Calories: 1587.31
+Target Protein: 119.05, Fat: 52.91, Carbs: 158.73
+
+
+============================== CELL 5 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+BMI: 22.04, Status: Normal weight
+
+
+============================== CELL 6 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Filtered recipes: 716
+
+-- Output 1 (type: execute_result) --
+[HTML table data length: 105]
+                                       Name  Calories  FatContent  \
+1901                   swiss chard dolmades     478.1        23.4   
+1971                      polenta pizzarina    1057.7        10.9   
+2463  linguini with seafood - buon'appetito     574.1        10.3   
+3178                            millet loaf     149.8         2.8   
+5583                           belly buster     562.4        19.1   
+
+      SaturatedFatContent  CholesterolContent  SodiumContent  \
+1901                  9.5                56.1         2234.5   
+1971                  1.6                 0.0          182.8   
+2463                  1.6               142.5          985.8   
+3178                  0.4                 0.0          142.6   
+5583                 10.6                67.8          382.6   
+
+      CarbohydrateContent  FiberContent  SugarContent  ProteinContent  \
+1901                 51.7           6.0           6.9            18.0   
+1971                220.7          28.5          22.0            35.0   
+2463                 71.6           4.2           5.8            43.2   
+3178                 27.3           3.8           1.8             4.1   
+5583                 67.5           4.4           6.2            29.4   
+
+                                     RecipeInstructions  
+1901  Saute riceorzo  and  garlic in butter for 1 mi...  
+1971  Preheat oven to 350F Put water in a large pot ...  
+2463  Serve pasta and sauce in a large bowl on the t...  
+3178  Rinse millet and put it in a medium saucepan w...  
+5583  This recipe can be made vegetarian leave out t...  
+
+============================== CELL 7 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Feature matrix shape: (716, 4768)
+
+
+============================== CELL 8 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Clustering done. Sample clusters:
+                                       Name  Cluster
+1901                   swiss chard dolmades       16
+1971                      polenta pizzarina       17
+2463  linguini with seafood - buon'appetito        3
+3178                            millet loaf        8
+5583                           belly buster       16
+
+
+============================== CELL 9 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Top 5 recommended recipes:
+                                                     Name  Calories  \
+224425                        yummy vegetarian meat sauce    1160.0   
+79151                        the best deep dish pizza pie    6378.6   
+429464                                 southwestern chili     718.0   
+343061                         delicious vegetarian chili     964.1   
+24961   easy white sauce (with variations) for the mic...    1552.6   
+
+        ProteinContent  FatContent  CarbohydrateContent  Similarity  
+224425            74.9        24.6                169.6    0.944023  
+79151            311.6       362.8                470.1    0.930273  
+429464            62.0        21.3                 74.8    0.929244  
+343061            62.0        19.8                149.3    0.921850  
+24961             89.4        99.5                105.4    0.920200  
+
+
+============================== CELL 10 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+7-day meal plan generated!
+
+
+============================== CELL 11 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+
+========================================
+🍽️  DAY 1 MEAL PLAN
+========================================
+🔹 Total Calories: 1542 kcal
+🔹 Protein: 64.0 g | Fat: 40.8 g | Carbs: 246.3 g
+----------------------------------------
+
+🥗 Meal 1: Fiesta Mix (199 kcal)
+   💪 Protein: 5.4 g | 🥑 Fat: 1.5 g | 🍞 Carbs: 44.5 g
+   📖 Instructions: Cook brown rice according to package directions 30 minutes Add remaining ingredients in a large saucepan and cook on medium heat until warmed through Eat wrapped in a burrito shell as a dip for tortilla chips or by itself  Good cold or hot For Vegetarian option Use the vegetarian Worcestershire Sauce
+----------------------------------------
+🥗 Meal 2: Kale-Corn Fritters (315 kcal)
+   💪 Protein: 11.0 g | 🥑 Fat: 10.2 g | 🍞 Carbs: 47.4 g
+   📖 Instructions: In a large bowl stir together the flour cornmeal salt kale and corn In a medium bowl lightly beat the eggs Mix in the oilbutter and milk Make a well in the center of the dry ingredients and pour in the wet ingredients This makes mixing in easier and faster If you are using the onion sautee it then add to your batter Also if you are using the bacon cook it and crumble it into the batter Reserve some of the bacon grease For both of these it is better if you can cook your fritters in the same pan the fact that you already cooked flavorful foods in that pan will add to the flavor of the fritters 
+Do not worry if the batter seems kind of thin Due to the eggs it should fry up fine However if you try one and feel it is still too thin feel free to add more flour about a Tbs at a time Heat a frying pan with oil andor bacon grease over medium heat Add dollops about 14 cup of the batter and fry When the fritters are ready to be flipped they will begin to look firm and egglike around the edges and begin to bubble slightly This should be about 3 minutes Flip and cook the other side 12 min 
+It is much like cooking pancakes and is pretty easy to get the hang of You may need to fiddle with your heat Be sure these are cooked through as they do contain raw eggs Serve warm I like mine with sour cream my boyfriend likes his with sour cream and cheddar For Vegetarian Omit the bacon
+----------------------------------------
+🥗 Meal 3: Tempeh (Or Chicken) Satay With Curried Cashew Sauce (61 kcal)
+   💪 Protein: 4.7 g | 🥑 Fat: 3.4 g | 🍞 Carbs: 4.1 g
+   📖 Instructions: To prepare tempeh or chicken If using tempeh cut into 40 cubes if using chicken cut into bite size pieces Combine first 6 ingredients in large nonstick skillet add tempehchicken tossing lightly to coat Bring to a boil cover reduce heat to low and simmer 15 minutes Uncover mixture and increase heat to mediumhigh Cook 4 minutes or until golden brown or done turning frequently Cool To prepare sauce Heat a small saucepan coated with cooking spray over mediumhigh heat 
+Add onion 2 teaspoons ginger salt and 2 garlic cloves sauté 5 minutes Stir in curry powder and turmeric sauté 1 minute Add water Bring to a boil and cook 1 minute Cool 5 minutes Pour onion mixture into a blender and add cashews and lemon juice Process until smooth Place a toothpick in each tempehchicken piece Serve with warm cashew sauce For Vegetarian do not use Chicken
+----------------------------------------
+🥗 Meal 4: Healthy Gourmet Quiche (160 kcal)
+   💪 Protein: 6.4 g | 🥑 Fat: 9.1 g | 🍞 Carbs: 13.0 g
+   📖 Instructions: Preheat the oven to 350 degrees Cover just the edges of the pie crust the lip with aluminum foil to brevent over browning Crack eggs into a large mixing bowl and add the milk blend with an electric mixer on low speed for 1 minute or beat with a whisk or fork for several minutes until well blended and uniform The more thoroughly you mix this the more fluffy and light this dish will be Take the frozen chopped spinach and the fresh broccoli and cut them finely or run through food processor until minced and then put into the bowl with the egg mixture 
+Thinly slice dime sized slices of the asparagus Add asparagus minced onions and salt into the mixture and stir well and pour half of the mixture into each pie crust Bake the quiches in the oven for 3545 minutes until center is solid Melt the cheddar cheese either on the stive over low heat or in the microwave after slicing it up Pour half the melted cheddar on each quiche Return the quiche to the oven and cook another 515 minutes until quiche is cooked through and the cheese is slightly brown to well browned depending on your preference We prefer barely browned and slightly liquid 
+Slice into 18ths for one serving Variations try other cheeses like swiss traditional herbed cheeses provelone for a smoky flavor or even gouda or edam Other good ingredients to try may be bacon we use vegetarian bacon a few strips finely minced as it is a strong flavor ham etc
+----------------------------------------
+🥗 Meal 5: Vegetarian Corn, Bean And Rice Wraps (385 kcal)
+   💪 Protein: 15.8 g | 🥑 Fat: 6.0 g | 🍞 Carbs: 73.8 g
+   📖 Instructions: Cook brown rice as package directs For extra flavor add a tablespoon of vegetarian bouillonit makes it really tasty As brown rice is cooking sauté the onion in a tablespoon of extra virgin olive oil Once onion is softened and browned a bit add drained and rinsed beans and corn Turn off heat Once rice is done add to the corn and beans Mix well Then mix in 1 to 2 depending on taste cans of tomato sauce Cook until hot Note Taco seasoning can be substituted instead of tomato sauce 
+Serve in tortillas with salsa if desired
+----------------------------------------
+🥗 Meal 6: Roasted Chicken Amp; Vegetables Primavera (361 kcal)
+   💪 Protein: 20.6 g | 🥑 Fat: 3.8 g | 🍞 Carbs: 63.0 g
+   📖 Instructions: Preheat oven to 425° Combine vegetarian vegetable or chicken bouillon cube with olive oil pressing with back of fork in large bowl Add red peppers squash onions and garlic and toss to coat Arrange vegetables on 2 jellyroll pans Roast 20 minutes Stir in chicken and roast 20 minutes or until vegetables are tender and golden and chicken is thoroughly cooked Arrange vegetables and chicken in large serving bowl smashing garlic Evenly pour reserved pasta cooking water into jellyroll pans scraping up browned bits from bottom of pans pour over vegetables and chicken Add penne toss to coat
+
+----------------------------------------
+🥗 Meal 7: Sauteed Greens (62 kcal)
+   💪 Protein: 0.1 g | 🥑 Fat: 6.8 g | 🍞 Carbs: 0.5 g
+   📖 Instructions: Pour 12 inch of water into a large pot and bring to a boil Add greens cover and steam until wilted about a minute Drain and chop In a large skillet heat the oil and add garlic Sauté over medium heat 30 seconds Sauté greens approximately five minutes Season with salt and tamari soy sauce Serve immediately Variations Instead of sautéing with oil and garlic steam the greens and flavour with a 12 teaspoon of fresh ginger juice lemon juice or umeboshi vinegar Ginger juice can be made by grating ginger and squeezing the juice out of the pulp Garnish with carrot slivers sesame seeds and enoki mushrooms 
+Source Vegetarian Tastes of Toronto p 28
+----------------------------------------
+
+========================================
+🍽️  DAY 2 MEAL PLAN
+========================================
+🔹 Total Calories: 1581 kcal
+🔹 Protein: 37.3 g | Fat: 100.7 g | Carbs: 139.1 g
+----------------------------------------
+
+🥗 Meal 1: Potato-Leek Soup With Fennel And Watercress (228 kcal)
+   💪 Protein: 8.4 g | 🥑 Fat: 9.9 g | 🍞 Carbs: 27.5 g
+   📖 Instructions: Warm the oil in a soup pot Add the leeks and saute Add the fennel and potatoes and continue to saute Add the stock and bring to a simmer Cook until all the vegetables are completely softened Add watercress cooking it until its wilted but still bright green Use a handheld blender until smooth Add the salt and white pepper Enjoy For Vegetarian use vegetable broth
+----------------------------------------
+🥗 Meal 2: Curried Pumpkin And Mushroom Soup (921 kcal)
+   💪 Protein: 15.0 g | 🥑 Fat: 78.5 g | 🍞 Carbs: 45.8 g
+   📖 Instructions: Use a large saucepan to sauté the mushrooms onion and butter until onions are clear Add flour and curry powder and blend stirring for five minutes Add stock pumpkin brown sugar and nutmeg stirring until blended Transfer to a blender and purée until smooth Add milk or whipping cream Reheat until hot For Vegetarian use the vegetable stock
+----------------------------------------
+🥗 Meal 3: Greek Style Quinoa Salad (321 kcal)
+   💪 Protein: 12.8 g | 🥑 Fat: 12.1 g | 🍞 Carbs: 41.6 g
+   📖 Instructions: If using untoasted quinoa place in a large bowl cover with lukewarm water Let stand for 5 minutes drain rinse well If using toasted quinoa place in a large bowl and rinse with lukewarm water drain well In a large saucepot bring chicken broth to a boil Stir in quinoa Cover reduce heat to medium lowyou want it simmering Cook for 15 to 20 minutes or until the chicken broth is absorbed Uncover and fluff well Cool to room temperature In a large bowl combine the olive oil mint lemon zest lemon juice sherry vinegar and salt 
+Whisk well Add the remaining ingredients tossing well Serve at room temperature For a vegetarian version use vegetable stock
+----------------------------------------
+🥗 Meal 4: Sweet Cherry Soup (110 kcal)
+   💪 Protein: 1.1 g | 🥑 Fat: 0.2 g | 🍞 Carbs: 24.2 g
+   📖 Instructions: bring 4 cups pitted cherries cherry juice port sugar cinnamon stick and 1 12 cups water to a boil Reduce heat to medium and simmer 15 minutes Remove cinnamon stick and puree until smooth in a blender or food processor Whisk cornstarch with 12 cup soup in a small bowl Return mixture to soup and whisk to combine Chill 3 hours or overnight Coarsely chop remaining pitted cherries Ladle soup in bowls with chopped cherries Garnish each with 1 whole cherry and serve For vegetarian use a vegetarian port such as Crusted
+
+----------------------------------------
+
+========================================
+🍽️  DAY 3 MEAL PLAN
+========================================
+🔹 Total Calories: 1540 kcal
+🔹 Protein: 58.4 g | Fat: 58.9 g | Carbs: 195.1 g
+----------------------------------------
+
+🥗 Meal 1: Vegetable Chow Mein (344 kcal)
+   💪 Protein: 11.8 g | 🥑 Fat: 6.7 g | 🍞 Carbs: 54.4 g
+   📖 Instructions: If needed cut peppers and celery a few hours ahead then combine in a sealable bag or cover bowl and refrigerate until you use Yes you must use dark sesame oil the other wont work  Broth used is optional use only one of the broths listed  Do NOT use both  If the dark sesame oil is too strong this is a strong oil tastereduce it to taste with light cooking sesame oil In boil water cook the pasta until tender Drain well Now in no stick skillet or wok heat the semsame oil until hot but not smoking over medium heat  Add the scallions garlic and ginger and stir fry until scallions are tender crisp about 1 minute 
+Add the peppers celery and mushrooms and stir fry until peppers and celery are tender crisp  About 4 minutes Add pasta and stir fry until lightly crisp aobut 1 minute In small bowl combine the rest of the ingredients along with rest of oil  Pour into skillet and cook stirring slightly for a minute until thickened For Vegans and Vegetarians you are cooking for use the meatless option  And no chicken is not Vegetarian
+----------------------------------------
+🥗 Meal 2: Caramelized Shallots (231 kcal)
+   💪 Protein: 3.5 g | 🥑 Fat: 11.8 g | 🍞 Carbs: 26.6 g
+   📖 Instructions: In a heavybased saucepan heat the butter with the sugar until the sugar has melted Add the shallots and mix well Add the stock and wine bring to the boil reduce the heat to very low cover and simmer for 1520 minutes over a low heat stirring now and then Uncover the pan and simmer for a further 10 minutes until the shallots are tender and glazed For Vegetarian use only the vegetable stock
+----------------------------------------
+🥗 Meal 3: Chili Bruschetta Pizza (112 kcal)
+   💪 Protein: 5.5 g | 🥑 Fat: 8.8 g | 🍞 Carbs: 3.4 g
+   📖 Instructions: Heat oven to 425ºF Put pizza crust on a baking sheet or pizza pan Brush olive oil evenly over crust Spread chili and tomatoes on top Combine mozzarella Parmesan garlic oregano and black olives if desired sprinkle over pizza Bake 15 to 20 minutes until golden brown Garnish with basil If chili needs thickening simmer until the desired consistency is reached Other varieties of chili may be substituted for vegetarian chili such as nobean chili or turkey chili with consequent changes to the nutrition information 
+Nutritional Information Per Serving Calories 310 Total fat 11g Saturated fat 25g Cholesterol 5mg Sodium 720mg Carbohydrate 43g Fiber 8g Protein 14g Vitamin A 20DV Vitamin C 6DV Calcium 20DV Iron 20DV Daily Value
+----------------------------------------
+🥗 Meal 4: Black Japonica Stuffing (88 kcal)
+   💪 Protein: 5.8 g | 🥑 Fat: 2.8 g | 🍞 Carbs: 9.4 g
+   📖 Instructions: In a sauce pan pre cook the onion and celery in the broth soft Beat 2 eggs and sage in a large bowl Add bread onions and mix with eggs Add liquid and cooked rice mix until blended Put stuffing in buttered casserole dish and bake until brown at 350 Can be used to stuff fowl or vegetables like bell peppers cabbage leaves onions eggplant or winter squash For vegetarian use the vegetable broth
+----------------------------------------
+🥗 Meal 5: Rice Amp; Lentil Salad (478 kcal)
+   💪 Protein: 9.3 g | 🥑 Fat: 21.5 g | 🍞 Carbs: 66.5 g
+   📖 Instructions: Boil the rice and add lentils raisins sunflower seeds coarsely grated carrot finely chopped onions and chopped celery Add the rest of the ingredients together in a shaker and mix really well Pour over the rice mixture while still hot Let it cool and serve on its own as a light lunch   vegetarian meal or as a side dish to meat chicken or fish The whole dish will take around 25 minutes to prepare as you can prepare the rest of the salad and the dressing while the rice is cooking
+
+----------------------------------------
+🥗 Meal 6: Peas, Onions Amp; Mushrooms (159 kcal)
+   💪 Protein: 7.9 g | 🥑 Fat: 2.8 g | 🍞 Carbs: 27.6 g
+   📖 Instructions: Heat the oil and brown the onions slightly Pour in the broth cook until the broth is reduced and the onions are still a bit crisp tender 4 minutes remove and keep warm Melt the butter in the pan brown the mushrooms until they start exuding liquid Return the onions to the pan Meanwhile steam the peas Add to the onions and mushrooms Season with salt pepper For Vegetarian use the vegetable broth
+----------------------------------------
+🥗 Meal 7: Chile Verde Con Cerdo (Green Chili With Pork) (128 kcal)
+   💪 Protein: 14.6 g | 🥑 Fat: 4.5 g | 🍞 Carbs: 7.2 g
+   📖 Instructions: Simmer roast in a large pan until meat is tender and removes from the bone easily You can also use diced pork or pork cube steaks cut to bite size pieces browned in the pot with the onion and garlic before adding the rest of the ingredients Cool meat enough to handle Cube cooked pork into bite size pieces Process 12 of the green chilies and tomatillos until smooth In the same large pan melt the lard or bacon grease or heat oil Add onions and garlic sauté until tender but not brown 
+Stir flour into the onion garlic and fat until flour absorbs the oil or fat Add broth or water Cook and stir until mixture comes to boil and is slightly thickened Add cubed meat drained tomatoes if desired chopped tomatillos chopped green chilies processed tomatillos and chilies and jalapeños if desired I recommend tasting first Add the spices a little at a time until you get the taste you like bringing to a simmer before each addition Simmer for at least 1 hour longer if you can afford the time stirring occasionally to prevent it from sticking to the bottom of the pan 
+If you want more of a stew type chili add cubed potatoes 20 minutes before serving serve with warm tortillas Serve over burritos and garnish with cheese lettuce tomatoes and sour cream Leave pork out for a vegetarian green chili sauce
+----------------------------------------
+
+========================================
+🍽️  DAY 4 MEAL PLAN
+========================================
+🔹 Total Calories: 1585 kcal
+🔹 Protein: 79.6 g | Fat: 42.9 g | Carbs: 239.1 g
+----------------------------------------
+
+🥗 Meal 1: Mom'S Fantastic Vegetarian Chili (241 kcal)
+   💪 Protein: 13.9 g | 🥑 Fat: 2.9 g | 🍞 Carbs: 42.9 g
+   📖 Instructions: In a large stock pot sautee the first section of ingredients under sautee until the onions are translucent and the garlic has released its potent smell mix well on a low flame  Just make sure these two ingredients have not burned Next add the remining ingredietns and simmer until carrots are soft but not mushy and bean mixture is hot  At this time you may also add 1 12 oz frozen package of Morningstar Grillers Burger Style Recipe Crumbles Vegetarian tofu version of ground beef 
+Serve hot top with sour cream  cheese if you desire or soy cheese
+----------------------------------------
+🥗 Meal 2: Chef Joey'S Anasazi Bean Chili (Pressure Cooker) (203 kcal)
+   💪 Protein: 12.5 g | 🥑 Fat: 11.6 g | 🍞 Carbs: 12.8 g
+   📖 Instructions: First pressure cook the beans by adding the water salt and cleaned beans to the pot of the pressure cooker and bring to a boil  Then place the pressure cooker lid on the pot and pressure cook for 6 minutes on the second red ring If you use different beans then Anasazi  be sure to check for the time they need to cook  Not all beans are created equal Use the cold water release method to cool down the pressure cooker This is done by pouring a stream of cold water from the tap on the side of the lid of the pressure cooker  Most cookers will have instructions as to how to cool your cooker down 
+Remove the beans to a colander and drain the water from the beans  At this stage the beans will still be a bit tough In a medium saute pan add the olive oil and saute the onion until transparent  Add the garlic being careful not to brown it Cut up the chicken sausage in medium size pieces  The kind I bought were fully cooked so I didnt saute them Put the garlic onion chicken sausage and beans into the pressure cooker Add 4 cups chicken broth  Stir and close the lid securely and pressure cook for 12 minutes on the second red ring 
+When done use the cold water release method and open the pressure cooker once the steam is all gone Taste the beans make sure they are soft Add 1 box of Fantastic Vegetarian Chili mix and the large can of diced tomatoes Simmer on low uncovered for 20 minutes and serve over your favorite grain and with a piece of home made corn bread Bon Appetit
+----------------------------------------
+🥗 Meal 3: The Only Main Course Salad Recipe You Need To Know (318 kcal)
+   💪 Protein: 10.9 g | 🥑 Fat: 7.8 g | 🍞 Carbs: 52.1 g
+   📖 Instructions: Combine salad ingredients dress and allow to rest for 10 minutes Serve on a bed of lettuce For Vegetarian omit the cooked chicken breasts or salmon and use the Temphe or the beans instead
+----------------------------------------
+🥗 Meal 4: Low Everything Chili (248 kcal)
+   💪 Protein: 18.6 g | 🥑 Fat: 6.6 g | 🍞 Carbs: 29.3 g
+   📖 Instructions: In a large skillet brown meat with onions until onions are transparent and tender and meat is done Rinse with water drain and pat dry Place in dutch oven Add remaining ingredients plus enough water to achieve desired thickness Allow to simmer stirring occasionally for at least 3 hours Do not add salt to pot just to individual bowls per personal taste This chili can be made as a vegetarian dish easily by leaving the beef out
+----------------------------------------
+🥗 Meal 5: Veggie Soup (146 kcal)
+   💪 Protein: 7.6 g | 🥑 Fat: 1.5 g | 🍞 Carbs: 30.1 g
+   📖 Instructions: Combine all ingredients in a large dutch oven cook until tender Sprinkle with grated parmesan cheese and croutons if desired For Vegetarian use the vegetable broth and make sure your package of vegetable soup is vegetarian
+----------------------------------------
+🥗 Meal 6: Fiesta Mix (199 kcal)
+   💪 Protein: 5.4 g | 🥑 Fat: 1.5 g | 🍞 Carbs: 44.5 g
+   📖 Instructions: Cook brown rice according to package directions 30 minutes Add remaining ingredients in a large saucepan and cook on medium heat until warmed through Eat wrapped in a burrito shell as a dip for tortilla chips or by itself  Good cold or hot For Vegetarian option Use the vegetarian Worcestershire Sauce
+----------------------------------------
+🥗 Meal 7: Tangy Tomatillo Sauce (130 kcal)
+   💪 Protein: 5.2 g | 🥑 Fat: 7.1 g | 🍞 Carbs: 13.3 g
+   📖 Instructions: In a medium saucepan add fresh tomatillos chiles and enough water to just cover Lightly salt Cook for 15 minutes and drain For canned just drain Place tomatillos cilantro onion and garlic in a blender or food processor Process to almost smoothleave a little texture In a large saucepan heat the oil over medium high heat When hot all the sauce all at once stirring constantly until darkenedabout 5 minutes Add the broth return to a boil and reduce heat to medium and simmer until thickened around 10 minutes 
+Remove from heat squeeze in lime juice stir again taste and add salt if needed For vegetarian only use the vegetable broth
+----------------------------------------
+🥗 Meal 8: Thai-Style Asparagus With Chiles, Garlic, Amp; Basil (99 kcal)
+   💪 Protein: 5.5 g | 🥑 Fat: 3.9 g | 🍞 Carbs: 14.1 g
+   📖 Instructions: Heat a wok or large deep skillet over high heat Add oil making sure bottom of pan is completely oiled Add garlic and minced chile toss until garlic begins to turn golden about 15 seconds Add the asparagus stirfry until coated with oil about 15 seconds Add the soy sauces sugar basil and 1 T water stirfry until basil starts to wilt Serve hot Garnish with sliced chiles For Vegetarian do not use the fish sauce use the soy sauce
+----------------------------------------
+
+========================================
+🍽️  DAY 5 MEAL PLAN
+========================================
+🔹 Total Calories: 1557 kcal
+🔹 Protein: 63.9 g | Fat: 65.4 g | Carbs: 188.7 g
+----------------------------------------
+
+🥗 Meal 1: Greek Style Quinoa Salad (321 kcal)
+   💪 Protein: 12.8 g | 🥑 Fat: 12.1 g | 🍞 Carbs: 41.6 g
+   📖 Instructions: If using untoasted quinoa place in a large bowl cover with lukewarm water Let stand for 5 minutes drain rinse well If using toasted quinoa place in a large bowl and rinse with lukewarm water drain well In a large saucepot bring chicken broth to a boil Stir in quinoa Cover reduce heat to medium lowyou want it simmering Cook for 15 to 20 minutes or until the chicken broth is absorbed Uncover and fluff well Cool to room temperature In a large bowl combine the olive oil mint lemon zest lemon juice sherry vinegar and salt 
+Whisk well Add the remaining ingredients tossing well Serve at room temperature For a vegetarian version use vegetable stock
+----------------------------------------
+🥗 Meal 2: Huey'S Potato Torta (502 kcal)
+   💪 Protein: 21.3 g | 🥑 Fat: 32.1 g | 🍞 Carbs: 33.2 g
+   📖 Instructions: Preheat the oven to 220°C Melt the butter and garlic in a small saucepan At the same time heat the oil in a pan and gently sauté the onion until it has softened but not browned then drain the onion well in a fine sieve Line the base of a springform cake tin with foil and lightly spray it with oil then place a layer of the potatoes on top together with onion seasonings herbs cheese and a little butter Repeat the process with a double layers of potatoes pressing down lightly with the palm of your hand Finish with a single layer of potatoes brush the final layer of potatoes with the remaining butter melted season to taste and sprinkle the milk over the top 
+Cover loosely with foil and bake for 30 minutes or until the potatoes are tender remove the foil for the last 5 minutes of the cooking time Allow the torte to cool slightly before releasing it from the springform pan Place it on a sering platter VARIATIONS You can add a couple of rashers of bacon sprinkle them on before the cheese  And for another vegetarian variation you could add a packet of thoroughly squeezedried frozen spinach to the drained onion at the end of step three
+
+----------------------------------------
+🥗 Meal 3: Soba Noodles With Mushrooms (455 kcal)
+   💪 Protein: 21.0 g | 🥑 Fat: 3.6 g | 🍞 Carbs: 93.6 g
+   📖 Instructions: Cook the noodles in boiling water until they are just tender test after 3 minutes drain and plunge into ice cold water rinse drain set aside Toss slivered mushrooms with the Shallots Ginger Toss with the noodles Mix together the stock soy sesame oil Mirin or honey mix Pour over the noodles and mix well taste adjust seasoning Arrange on 4 plates Sprinkle with toasted sesame seeds serve For vegetarians use the vegetable stock
+----------------------------------------
+🥗 Meal 4: Chilled Avocado-Orange-Chicken Soup (253 kcal)
+   💪 Protein: 8.0 g | 🥑 Fat: 17.0 g | 🍞 Carbs: 14.9 g
+   📖 Instructions: Peel the avocados remove the stones and chop roughly Combine the avocado diced chicken orange juice orange zest wine yoghurt salt and ground cinnamon then process in a blender or food processor until wellblended Refrigerate for 30 minutes Garnish with orange segments and mint or add an orangeiceblock to each bowl  and serve Chefs Notes If you are able to plan ahead cook an extra chicken breast a day or two before when preparing another meal  However if you are short of time or want to make this a vegetarian soup instead of the diced chicken breast add an additional avocado  You can of course also vary the orange juicewine ratio
+
+----------------------------------------
+🥗 Meal 5: Perfect Picnic Sandwich (27 kcal)
+   💪 Protein: 0.8 g | 🥑 Fat: 0.6 g | 🍞 Carbs: 5.4 g
+   📖 Instructions: Mix all of these things together  other then the lunch meat and cheese The tomato mixture is similar to a brushchetta topping You can adapt the filling to your own tastes by adding grilled vegetables with hummus or pesto Scoop out the round loaf to get ready for stuffing Scoop out the loaf so that you have about 1 inch of bread all around Keep the hat of the loaf for the finished sandwich Brush the inside of the loaf with olive oil This step prevents the bread from going soggy Now spoon half of the filling into the bottom of the bread and press down with spoon 
+Then layer in half of the sliced meatsYou can use different salami ham turkey or even eggplant if you want to keep it vegetarian In this sandwich Then layer in cheese slices After the cheese layer layer the remaining meat and spoon in the other half of the filling Place the hat back on the loaf Press firmly You are done Wrap sandwich tightly in saran wrap Then wrap in tin foil Place sandwich in large bowl with some soup cans on top for weight to help press the sandwichThis step can be skipped especially if you dont have room in your fridge for the big bowl 
+Place sandwich in fridge overnightI usually slice my sandwich in the morning with an electric knife into 8 wedges Then I rewrap the sandwich in plastic wrap and tin foil and place in the cooler until lunch time
+----------------------------------------
+
+========================================
+🍽️  DAY 6 MEAL PLAN
+========================================
+🔹 Total Calories: 1542 kcal
+🔹 Protein: 61.1 g | Fat: 40.5 g | Carbs: 248.1 g
+----------------------------------------
+
+🥗 Meal 1: Marc'S Chickpea Risotto (596 kcal)
+   💪 Protein: 15.5 g | 🥑 Fat: 11.3 g | 🍞 Carbs: 109.9 g
+   📖 Instructions: In a large pot with a tight fitting lid sauté onion in oil When the onion becomes golden add the rice and stir for two minutes Add tomatoes water strained chickpeas vegetables broth mix and the seasonings and stir well Cover and simmer until the rice is cooked about 40 minutes You may want to uncover towards the end to reduce the liquid if necessary Source Vegetarian Tastes of Toronto p 83
+----------------------------------------
+🥗 Meal 2: Indian-Style Cauliflower (85 kcal)
+   💪 Protein: 5.2 g | 🥑 Fat: 0.9 g | 🍞 Carbs: 15.8 g
+   📖 Instructions: In a 10inch nonstick skillet combine the onion stock chutney mustard basil ginger cumin salt cinnamon and curry powder Bring to a simmer and cook covered for 6 minutes Add the cauliflower and cook covered for 5 minutes over moderately low heat Add the peas cover and cook 45 minutes more or until the cauliflower is crisptender Stir in the cornstarch mixture vinegar and red pepper sauce Cook for 1 minute or until the sauce has thickened Serve hot or at room temperature 
+For Vegetarian use the vegetable stock
+----------------------------------------
+🥗 Meal 3: Dream Mushroom- Vegetable Broth Pulao(Pilaf) With Parsley And Yogurt (241 kcal)
+   💪 Protein: 6.7 g | 🥑 Fat: 5.1 g | 🍞 Carbs: 43.7 g
+   📖 Instructions: Firstly prepare the vegetable broth For this add 1 cube ofMaggi Vegetable stock with onion to 3 cups of water Allow to boil until the cube has completely dissolved in the water Set aside Now heat oil in a large heavy bottomed skillet Add in the chopped onions and garlic Saute on medium flame till golden brown Add mushrooms and continue to saute for 4 minutes Add vegetable broth and rice Stir once bring to a boil Lower flame partially cover and cook on medium flame till the broth has evaporated and rice is ready 
+Garnish with parsley and serve with a dollop of lowfat yogurt and your favourite vegetarian curry for a memorable summer lunch
+----------------------------------------
+🥗 Meal 4: Chile Verde Con Cerdo (Green Chili With Pork) (128 kcal)
+   💪 Protein: 14.6 g | 🥑 Fat: 4.5 g | 🍞 Carbs: 7.2 g
+   📖 Instructions: Simmer roast in a large pan until meat is tender and removes from the bone easily You can also use diced pork or pork cube steaks cut to bite size pieces browned in the pot with the onion and garlic before adding the rest of the ingredients Cool meat enough to handle Cube cooked pork into bite size pieces Process 12 of the green chilies and tomatillos until smooth In the same large pan melt the lard or bacon grease or heat oil Add onions and garlic sauté until tender but not brown 
+Stir flour into the onion garlic and fat until flour absorbs the oil or fat Add broth or water Cook and stir until mixture comes to boil and is slightly thickened Add cubed meat drained tomatoes if desired chopped tomatillos chopped green chilies processed tomatillos and chilies and jalapeños if desired I recommend tasting first Add the spices a little at a time until you get the taste you like bringing to a simmer before each addition Simmer for at least 1 hour longer if you can afford the time stirring occasionally to prevent it from sticking to the bottom of the pan 
+If you want more of a stew type chili add cubed potatoes 20 minutes before serving serve with warm tortillas Serve over burritos and garnish with cheese lettuce tomatoes and sour cream Leave pork out for a vegetarian green chili sauce
+----------------------------------------
+🥗 Meal 5: Creamy Vegan Pesto Pasta With Broccoli (261 kcal)
+   💪 Protein: 12.3 g | 🥑 Fat: 17.4 g | 🍞 Carbs: 20.0 g
+   📖 Instructions: In a blender or food processor blend cashews and 12 cup water until smooth  Then add the tofu 1 tablespoons olive oil reserve 1 Tbsp 34 cup water vegetarian chicken seasoning 1 12 Tbsp nutritional yeast and salt and blend until smooth and creamy  You may want to add a tad more water if its too thick  Set aside Boil pasta noodles and drain In a large saucepan saute the onion and garlic in the remaining 1 tablespoons olive oil until onions are clear  Add 13 cup water and the vegan chicken seasoning  If you are using fresh spinach cook it with the onion if using frozen spinach add it to the saucepan after the onion is clear 
+Once the onion garlic and spinach is cooked and the water has been evaporated add the blended mixture cashews tofu etc cooked broccoli and pesto sauce to the sauce pan  Cook together on low for 5 minutes Serve mixed sauce on top of cooked pasta and enjoy
+----------------------------------------
+🥗 Meal 6: New Mexico Chili Cook-Off (23 kcal)
+   💪 Protein: 0.9 g | 🥑 Fat: 0.1 g | 🍞 Carbs: 5.2 g
+   📖 Instructions: CHILI  1  MIKES MANIAC MONSTER CHILI Judge  1   A little too heavy on the tomato Amusing kick Judge  2   Nice smooth tomato flavor Very mild Judge  3 Frank   Holy crap what the hell is this stuff You could remove dried paint from your driveway Took me two beers to put the flames out I hope thats the worst one These New Mexicans are crazy CHILI  2  EL RANCHOS AFTERBURNER CHILI Judge  1   Smoky with a hint of pork Slight jalapeno tang Judge  2   Exciting BBQ flavor needs more peppers to be taken seriously 
+Judge  3  Keep this out of the reach of children Im not sure what Im supposed to taste besides pain I had to wave off two people who wanted to give me the Heimlich maneuver They had to rush in more beer when they saw the look on my face CHILI  3  ALFREDOS FAMOUS BURN DOWN THE BARN CHILI Judge  1   Excellent firehouse chili Great kick Judge  2   A bit salty good use of peppers Judge  3   Call the EPA Ive located a uranium spill My nose feels like I have been snorting Drano Everyone knows the routine by now Get me more beer before I ignite Barmaid pounded me on the back now my backbone is in the front part of my chest Im getting shtfaced from all of the beer 
+CHILI  42 0 BUBBAS BLACK MAGIC Judge  1   Black bean chili with almost no spice Disappointing Judge  2   Hint of lime in the black beans Good side dish for fish or other mild foods not much of a chili Judge  3   I felt something scraping across my tongue but was unable to taste it Is it possible to burn out taste buds Sally the beer maid was standing behind me with fresh refills This 300 lb Woman is starting to look HOT    Just like this nuclear waste Im eating Is chili an aphrodisiac 
+CHILI  5  LISAS LEGAL LIP REMOVER Judge  1   Meaty strong chili Jalapeno peppers freshly ground adding considerable kick Very impressive Judge  2   Chili using shredded beef could use more tomato Must admit the jalapeno peppers make a strong statement Judge  3   My ears are ringing sweat is pouring off my forehead and I can no longer focus my eyes I farted and four people behind me needed paramedics The contestant seemed offended when I told her that her chili had given me brain damage Sally saved my tongue from bleeding by pouring beer directly on it from the pitcher I wonder if Im burning my lips off It really ticks me off that the other judges asked me to stop screaming Screw them 
+CHILI  6  VARGAS VERY VEGETARIAN VARIETY Judge  1   Thin yet bold vegetarian variety chili Good balance of spices and peppers Judge  2   The best yet Aggressive use of peppers onions garlic Superb Judge  3   My intestines are now a straight pipe filled with gaseous sulfuric flames I crapped on myself when I farted and Im worried it will eat through the chair No one seems inclined to stand behind me except that Sally Cant feel my lips anymore I need to wipe my butt with a snow cone 
+CHILI  7  SUSANS SCREAMING SENSATION CHILI Judge  1   A mediocre chili with too much reliance on canned peppers Judge  2   Ho hum tastes as if the chef literally threw in a can of chili peppers at the last moment I should take note that I am worried about Judge 3 He appears to be in a bit of distress as he is cursing uncontrollably Judge  3   You could put a grenade in my mouth pull the pin and I wouldnt feel a thing Ive lost sight in one eye and the world sounds like it is made of rushing water My shirt is covered with chili which slid unnoticed out of my mouth My pants are full of lava to match my shirt At least during the autopsy theyll know what killed me Ive decided to stop breathing Its too painful Screw it Im not getting any oxygen anyway If I need air Ill just suck it in through the 4inch hole in my stomach 
+CHILI  8  BIG TOMS TOENAIL CURLING CHILI Judge  1   The perfect ending this is a nice blend chili Not too bold but spicy enough to declare its existence Judge  2  This final entry is a good balanced chili Neither mild nor hot Sorry to see that most of it was lost when Judge 3 farted passed out fell over and pulled the chili pot down on top of himself Not sure if hes going to make it Poor fella wonder how hed have reacted to really hot chili Judge  3   No report
+
+----------------------------------------
+🥗 Meal 7: Hyderabadi Toast (208 kcal)
+   💪 Protein: 5.9 g | 🥑 Fat: 1.2 g | 🍞 Carbs: 46.3 g
+   📖 Instructions: Mash the boiled potatoes in a bowl Add Worcestershire sauce lemon juice for vegetarian use only the lemon juice green chillies salt to taste and corriander leaves to it Mix well Apply this mixture evenly with the help of a spoon on the diagonally cut slices of bread You will notice the mixture will stick on to the bread Heat oil in a wok Deep fry these bread slices making sure that the side of the bread containing the potato mixture is facing down When the bread turns golden brown flip the side of the slice 
+Remove onto clean absorbent tissue paperskitchen towelspaper napkins Now apply the mint chutney on the fried bread slices evenly all over on the potato mixture side of the fried bread On top of this apply a layer of Tomato Ketchup Sprinkle finely chopped onions all over it Lastly sprinkle corriander leaves and sev all over the slice on the side containing the potato mixture Serve hot for a delicious potato breakfast your going to want over and over again
+----------------------------------------
+
+========================================
+🍽️  DAY 7 MEAL PLAN
+========================================
+🔹 Total Calories: 1552 kcal
+🔹 Protein: 51.3 g | Fat: 74.6 g | Carbs: 185.3 g
+----------------------------------------
+
+🥗 Meal 1: Slow Cooker New Orleans Po'Boy (Vegetarian Seitan) (350 kcal)
+   💪 Protein: 14.1 g | 🥑 Fat: 2.2 g | 🍞 Carbs: 69.1 g
+   📖 Instructions: Vegetarian BeefyFlavored Bouillon to be made in advance  Process the mushrooms into a powder using a food processor or spice grinder Note  The water for the beefyflavored bouillon will keep the veggies from sticking to the slowcooker but you can spray the empty crock with oil before adding your ingredients for extra security To the slow cooker add the mushroom powder cut onion garlic water and soy sauce Cook on low for 8 hours Cool slightly Add the contents of the slowcooker to a blender or food processor and blend until smooth  Portion 14 cup for this recipe  This can be made in advance and frozen 
+Slow Cooker Seitan  Cut half of the seitan into bitesized cubes or break pieces apart if the seitan is already cubed   Pulse the remaining half in a food processor until you have small ragged bits In a slowcooker combine the chopped seitan garlic water 14 cup beefybouillon Cajun seasoning salt and pepper to taste Cook on low for 6 to 8 hours About 20 minutes before serving add extra water if the mixture has become dry Add 1 tablespoon cornstarch to the slowcooker and mix well Cook for 20 more minutes This should thicken the gravy If it is not thick enough add the remaining 12 tablespoon cornstarch Serve on French bread with mayonnaise lettuce tomato and onion
+
+----------------------------------------
+🥗 Meal 2: Orange Sesame Rice (310 kcal)
+   💪 Protein: 8.6 g | 🥑 Fat: 10.7 g | 🍞 Carbs: 45.6 g
+   📖 Instructions: In a large saucepan heat oil Add Sesame seeds stirring constantly brown seeds about 2 minutes Add Rice and Onion saute 3 minutes Pour in the Chicken stock For Vegetarian use the Vegetable Stock Bring to a boil reduce heat cover and simmer for about 20 minutes or until rice is tender and most of the stock is absorbed drain if necessary dont overcook the rice Stir in the orange zest and serve
+----------------------------------------
+🥗 Meal 3: Kimberly Gale'S Banana Almond Hummus (354 kcal)
+   💪 Protein: 5.6 g | 🥑 Fat: 13.2 g | 🍞 Carbs: 61.4 g
+   📖 Instructions: In bowl cover dates in boiling water and allow to plump for 5 minutes  Drain pit and chop coarsely IN blender or food processor Combine all ingredients and processor until smooth  Add cinnamon to taste  The recipe called for a dash  Scrape down sides as needed Pour into serving bowl Garnish if desired with honey do not use for nonApian vegans or vegetarians or other liquid sweetener and sprinkle with chopped toasted almonds
+----------------------------------------
+🥗 Meal 4: Faux Sour Cream (Tofu) (538 kcal)
+   💪 Protein: 23.0 g | 🥑 Fat: 48.5 g | 🍞 Carbs: 9.2 g
+   📖 Instructions: Get out your blender or food processor Throw all the ingredients in and blend blend blend until it is creamy This may take a while but it will happen Taste and adjust seasonings accordingly I added a bit more soy sauce and vinegar to mine Store in a tightly sealed container in the refrigerator This should keep for about 5 days It may seperate upon refrigeration so in this even just mix it back together with a fork before serving Mine has sort of a brownishtint perhaps from the soy sauce and I wouldnt necessarily try and pass this off as real sour cream on your hubbys baked potato but if you want it for a recipe not sure about baked goods this should be okay 
+If using for Vegetarian or Vegan and you wish to use honey please check to make sure they consume honey  Many do not
+----------------------------------------
+
+
+============================== CELL 13 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Total interactions: 20823
+Users: 1000, Recipes: 716
+Average interactions per user: 20.82
+Mapped users: 1000, Mapped recipes: 716
+
+
+============================== CELL 14 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Neural Collaborative Filtering Model:
+
+-- Output 1 (type: stream) --
+2026-10-24 15:07:30.815151: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+
+-- Output 2 (type: display_data) --
+[HTML table data length: 2]
+[1mModel: "functional"[0m
+
+-- Output 3 (type: display_data) --
+[HTML table data length: 63]
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃[1m [0m[1mLayer (type)       [0m[1m [0m┃[1m [0m[1mOutput Shape     [0m[1m [0m┃[1m [0m[1m   Param #[0m[1m [0m┃[1m [0m[1mConnected to     [0m[1m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ user_input          │ ([38;5;45mNone[0m)            │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ recipe_input        │ ([38;5;45mNone[0m)            │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ user_embedding      │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │     [38;5;34m64,000[0m │ user_input[[38;5;34m0[0m][[38;5;34m0[0m]  │
+│ ([38;5;33mEmbedding[0m)         │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ recipe_embedding    │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │     [38;5;34m45,824[0m │ recipe_input[[38;5;34m0[0m][[38;5;34m…[0m │
+│ ([38;5;33mEmbedding[0m)         │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ flatten ([38;5;33mFlatten[0m)   │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │          [38;5;34m0[0m │ user_embedding[[38;5;34m0[0m… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ flatten_1 ([38;5;33mFlatten[0m) │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │          [38;5;34m0[0m │ recipe_embedding… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ concatenate         │ ([38;5;45mNone[0m, [38;5;34m128[0m)       │          [38;5;34m0[0m │ flatten[[38;5;34m0[0m][[38;5;34m0[0m],    │
+│ ([38;5;33mConcatenate[0m)       │                   │            │ flatten_1[[38;5;34m0[0m][[38;5;34m0[0m]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_layer_0 ([38;5;33mDense[0m) │ ([38;5;45mNone[0m, [38;5;34m128[0m)       │     [38;5;34m16,512[0m │ concatenate[[38;5;34m0[0m][[38;5;34m0[0m] │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_bn_0            │ ([38;5;45mNone[0m, [38;5;34m128[0m)       │        [38;5;34m512[0m │ mlp_layer_0[[38;5;34m0[0m][[38;5;34m0[0m] │
+│ ([38;5;33mBatchNormalizatio…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_dropout_0       │ ([38;5;45mNone[0m, [38;5;34m128[0m)       │          [38;5;34m0[0m │ mlp_bn_0[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mDropout[0m)           │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_layer_1 ([38;5;33mDense[0m) │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │      [38;5;34m8,256[0m │ mlp_dropout_0[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_bn_1            │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │        [38;5;34m256[0m │ mlp_layer_1[[38;5;34m0[0m][[38;5;34m0[0m] │
+│ ([38;5;33mBatchNormalizatio…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_dropout_1       │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │          [38;5;34m0[0m │ mlp_bn_1[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mDropout[0m)           │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_layer_2 ([38;5;33mDense[0m) │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │      [38;5;34m2,080[0m │ mlp_dropout_1[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_bn_2            │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │        [38;5;34m128[0m │ mlp_layer_2[[38;5;34m0[0m][[38;5;34m0[0m] │
+│ ([38;5;33mBatchNormalizatio…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_dropout_2       │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │          [38;5;34m0[0m │ mlp_bn_2[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mDropout[0m)           │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_layer_3 ([38;5;33mDense[0m) │ ([38;5;45mNone[0m, [38;5;34m16[0m)        │        [38;5;34m528[0m │ mlp_dropout_2[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_bn_3            │ ([38;5;45mNone[0m, [38;5;34m16[0m)        │         [38;5;34m64[0m │ mlp_layer_3[[38;5;34m0[0m][[38;5;34m0[0m] │
+│ ([38;5;33mBatchNormalizatio…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ multiply ([38;5;33mMultiply[0m) │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │          [38;5;34m0[0m │ flatten[[38;5;34m0[0m][[38;5;34m0[0m],    │
+│                     │                   │            │ flatten_1[[38;5;34m0[0m][[38;5;34m0[0m]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ mlp_dropout_3       │ ([38;5;45mNone[0m, [38;5;34m16[0m)        │          [38;5;34m0[0m │ mlp_bn_3[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mDropout[0m)           │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ concatenate_1       │ ([38;5;45mNone[0m, [38;5;34m80[0m)        │          [38;5;34m0[0m │ multiply[[38;5;34m0[0m][[38;5;34m0[0m],   │
+│ ([38;5;33mConcatenate[0m)       │                   │            │ mlp_dropout_3[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ prediction ([38;5;33mDense[0m)  │ ([38;5;45mNone[0m, [38;5;34m1[0m)         │         [38;5;34m81[0m │ concatenate_1[[38;5;34m0[0m]… │
+└─────────────────────┴───────────────────┴────────────┴───────────────────┘
+
+-- Output 4 (type: display_data) --
+[HTML table data length: 2]
+[1m Total params: [0m[38;5;34m138,241[0m (540.00 KB)
+
+-- Output 5 (type: display_data) --
+[HTML table data length: 2]
+[1m Trainable params: [0m[38;5;34m137,761[0m (538.13 KB)
+
+-- Output 6 (type: display_data) --
+[HTML table data length: 2]
+[1m Non-trainable params: [0m[38;5;34m480[0m (1.88 KB)
+
+
+============================== CELL 15 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Content-Based Deep Learning Model:
+
+-- Output 1 (type: display_data) --
+[HTML table data length: 2]
+[1mModel: "functional_2"[0m
+
+-- Output 2 (type: display_data) --
+[HTML table data length: 85]
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃[1m [0m[1mLayer (type)       [0m[1m [0m┃[1m [0m[1mOutput Shape     [0m[1m [0m┃[1m [0m[1m   Param #[0m[1m [0m┃[1m [0m[1mConnected to     [0m[1m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ text_input          │ ([38;5;45mNone[0m, [38;5;34m200[0m)       │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ text_embedding      │ ([38;5;45mNone[0m, [38;5;34m200[0m, [38;5;34m128[0m)  │    [38;5;34m640,000[0m │ text_input[[38;5;34m0[0m][[38;5;34m0[0m]  │
+│ ([38;5;33mEmbedding[0m)         │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ nutritional_input   │ ([38;5;45mNone[0m, [38;5;34m4[0m)         │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ conv1d ([38;5;33mConv1D[0m)     │ ([38;5;45mNone[0m, [38;5;34m198[0m, [38;5;34m100[0m)  │     [38;5;34m38,500[0m │ text_embedding[[38;5;34m0[0m… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ conv1d_1 ([38;5;33mConv1D[0m)   │ ([38;5;45mNone[0m, [38;5;34m197[0m, [38;5;34m100[0m)  │     [38;5;34m51,300[0m │ text_embedding[[38;5;34m0[0m… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ conv1d_2 ([38;5;33mConv1D[0m)   │ ([38;5;45mNone[0m, [38;5;34m196[0m, [38;5;34m100[0m)  │     [38;5;34m64,100[0m │ text_embedding[[38;5;34m0[0m… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ categorical_input   │ ([38;5;45mNone[0m, [38;5;34m3[0m)         │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense ([38;5;33mDense[0m)       │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │        [38;5;34m160[0m │ nutritional_inpu… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ global_max_pooling… │ ([38;5;45mNone[0m, [38;5;34m100[0m)       │          [38;5;34m0[0m │ conv1d[[38;5;34m0[0m][[38;5;34m0[0m]      │
+│ ([38;5;33mGlobalMaxPooling1…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ global_max_pooling… │ ([38;5;45mNone[0m, [38;5;34m100[0m)       │          [38;5;34m0[0m │ conv1d_1[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mGlobalMaxPooling1…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ global_max_pooling… │ ([38;5;45mNone[0m, [38;5;34m100[0m)       │          [38;5;34m0[0m │ conv1d_2[[38;5;34m0[0m][[38;5;34m0[0m]    │
+│ ([38;5;33mGlobalMaxPooling1…[0m │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ embedding           │ ([38;5;45mNone[0m, [38;5;34m3[0m, [38;5;34m16[0m)     │        [38;5;34m800[0m │ categorical_inpu… │
+│ ([38;5;33mEmbedding[0m)         │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense_1 ([38;5;33mDense[0m)     │ ([38;5;45mNone[0m, [38;5;34m16[0m)        │        [38;5;34m528[0m │ dense[[38;5;34m0[0m][[38;5;34m0[0m]       │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ concatenate_2       │ ([38;5;45mNone[0m, [38;5;34m300[0m)       │          [38;5;34m0[0m │ global_max_pooli… │
+│ ([38;5;33mConcatenate[0m)       │                   │            │ global_max_pooli… │
+│                     │                   │            │ global_max_pooli… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ flatten_2 ([38;5;33mFlatten[0m) │ ([38;5;45mNone[0m, [38;5;34m48[0m)        │          [38;5;34m0[0m │ embedding[[38;5;34m0[0m][[38;5;34m0[0m]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ nutritional_output  │ ([38;5;45mNone[0m, [38;5;34m8[0m)         │        [38;5;34m136[0m │ dense_1[[38;5;34m0[0m][[38;5;34m0[0m]     │
+│ ([38;5;33mDense[0m)             │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ text_output ([38;5;33mDense[0m) │ ([38;5;45mNone[0m, [38;5;34m300[0m)       │     [38;5;34m90,300[0m │ concatenate_2[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ categorical_output  │ ([38;5;45mNone[0m, [38;5;34m48[0m)        │      [38;5;34m2,352[0m │ flatten_2[[38;5;34m0[0m][[38;5;34m0[0m]   │
+│ ([38;5;33mDense[0m)             │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ concatenate_3       │ ([38;5;45mNone[0m, [38;5;34m356[0m)       │          [38;5;34m0[0m │ nutritional_outp… │
+│ ([38;5;33mConcatenate[0m)       │                   │            │ text_output[[38;5;34m0[0m][[38;5;34m0[0m… │
+│                     │                   │            │ categorical_outp… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ user_preference_in… │ ([38;5;45mNone[0m, [38;5;34m4[0m)         │          [38;5;34m0[0m │ -                 │
+│ ([38;5;33mInputLayer[0m)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ encoder_1 ([38;5;33mDense[0m)   │ ([38;5;45mNone[0m, [38;5;34m256[0m)       │     [38;5;34m91,392[0m │ concatenate_3[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense_2 ([38;5;33mDense[0m)     │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │        [38;5;34m160[0m │ user_preference_… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ encoder_2 ([38;5;33mDense[0m)   │ ([38;5;45mNone[0m, [38;5;34m128[0m)       │     [38;5;34m32,896[0m │ encoder_1[[38;5;34m0[0m][[38;5;34m0[0m]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ user_preference_ve… │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │      [38;5;34m2,112[0m │ dense_2[[38;5;34m0[0m][[38;5;34m0[0m]     │
+│ ([38;5;33mDense[0m)             │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ latent_representat… │ ([38;5;45mNone[0m, [38;5;34m64[0m)        │      [38;5;34m8,256[0m │ encoder_2[[38;5;34m0[0m][[38;5;34m0[0m]   │
+│ ([38;5;33mDense[0m)             │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dot ([38;5;33mDot[0m)           │ ([38;5;45mNone[0m, [38;5;34m1[0m)         │          [38;5;34m0[0m │ user_preference_… │
+│                     │                   │            │ latent_represent… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ concatenate_4       │ ([38;5;45mNone[0m, [38;5;34m129[0m)       │          [38;5;34m0[0m │ dot[[38;5;34m0[0m][[38;5;34m0[0m],        │
+│ ([38;5;33mConcatenate[0m)       │                   │            │ user_preference_… │
+│                     │                   │            │ latent_represent… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense_3 ([38;5;33mDense[0m)     │ ([38;5;45mNone[0m, [38;5;34m32[0m)        │      [38;5;34m4,160[0m │ concatenate_4[[38;5;34m0[0m]… │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense_4 ([38;5;33mDense[0m)     │ ([38;5;45mNone[0m, [38;5;34m16[0m)        │        [38;5;34m528[0m │ dense_3[[38;5;34m0[0m][[38;5;34m0[0m]     │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ rating_prediction   │ ([38;5;45mNone[0m, [38;5;34m1[0m)         │         [38;5;34m17[0m │ dense_4[[38;5;34m0[0m][[38;5;34m0[0m]     │
+│ ([38;5;33mDense[0m)             │                   │            │                   │
+└─────────────────────┴───────────────────┴────────────┴───────────────────┘
+
+-- Output 3 (type: display_data) --
+[HTML table data length: 2]
+[1m Total params: [0m[38;5;34m1,027,697[0m (3.92 MB)
+
+-- Output 4 (type: display_data) --
+[HTML table data length: 2]
+[1m Trainable params: [0m[38;5;34m1,027,697[0m (3.92 MB)
+
+-- Output 5 (type: display_data) --
+[HTML table data length: 2]
+[1m Non-trainable params: [0m[38;5;34m0[0m (0.00 B)
+
+
+============================== CELL 16 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Ensemble mechanism initialized
+
+
+============================== CELL 17 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Training samples: 13326
+Validation samples: 3332
+Test samples: 4165
+Training samples with negatives: 66630
+
+
+============================== CELL 18 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Nutritional features shape: (716, 4)
+Text features shape: (716, 200)
+Categorical features shape: (716, 3)
+
+
+============================== CELL 19 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Training Neural Collaborative Filtering Model...
+Epoch 1/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 36ms/step - accuracy: 0.5176 - loss: 0.7315 - val_accuracy: 0.3085 - val_loss: 0.7049 - learning_rate: 0.0010
+Epoch 2/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 20ms/step - accuracy: 0.5980 - loss: 0.6725 - val_accuracy: 0.3085 - val_loss: 0.7153 - learning_rate: 0.0010
+Epoch 3/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 20ms/step - accuracy: 0.6734 - loss: 0.6410 - val_accuracy: 0.3085 - val_loss: 0.7297 - learning_rate: 0.0010
+Epoch 4/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 21ms/step - accuracy: 0.7369 - loss: 0.6084 - val_accuracy: 0.3085 - val_loss: 0.7569 - learning_rate: 0.0010
+Epoch 5/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 21ms/step - accuracy: 0.7783 - loss: 0.5769 - val_accuracy: 0.3085 - val_loss: 0.7734 - learning_rate: 5.0000e-04
+Epoch 6/50
+[1m33/33[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 21ms/step - accuracy: 0.7953 - loss: 0.5557 - val_accuracy: 0.3085 - val_loss: 0.7986 - learning_rate: 5.0000e-04
+NCF training completed!
+
+
+============================== CELL 20 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Training Content-Based Deep Learning Model...
+Epoch 1/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 1s/step - loss: 0.0952 - mae: 0.2632 - val_loss: 0.0596 - val_mae: 0.2092 - learning_rate: 5.0000e-04
+Epoch 2/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 1s/step - loss: 0.0554 - mae: 0.1896 - val_loss: 0.0582 - val_mae: 0.1957 - learning_rate: 5.0000e-04
+Epoch 3/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 1s/step - loss: 0.0543 - mae: 0.1842 - val_loss: 0.0582 - val_mae: 0.1956 - learning_rate: 5.0000e-04
+Epoch 4/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 1s/step - loss: 0.0540 - mae: 0.1843 - val_loss: 0.0583 - val_mae: 0.1965 - learning_rate: 5.0000e-04
+Epoch 5/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m31s[0m 1s/step - loss: 0.0538 - mae: 0.1844 - val_loss: 0.0584 - val_mae: 0.1970 - learning_rate: 5.0000e-04
+Epoch 6/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 1s/step - loss: 0.0535 - mae: 0.1845 - val_loss: 0.0585 - val_mae: 0.1984 - learning_rate: 2.5000e-04
+Epoch 7/50
+[1m27/27[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 1s/step - loss: 0.0535 - mae: 0.1847 - val_loss: 0.0585 - val_mae: 0.1984 - learning_rate: 2.5000e-04
+Content-Based training completed!
+
+
+============================== CELL 21 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Ensemble meta-model trained!
+
+
+============================== CELL 22 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Training Baseline: Matrix Factorization (NMF)...
+Training Baseline: Item-Based KNN...
+Baseline models trained!
+
+
+============================== CELL 23 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Generating predictions...
+All predictions generated!
+
+
+============================== CELL 24 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+
+============================================================
+MODEL PERFORMANCE COMPARISON
+============================================================
+                         Model   RMSE    MAE    MSE  Accuracy
+Neural Collaborative Filtering 0.3791 0.3423 0.1437    0.1474
+   Content-Based Deep Learning 0.2379 0.1913 0.0566    0.8526
+               Hybrid Ensemble 0.3771 0.3405 0.1422    0.1474
+    Matrix Factorization (NMF) 0.7934 0.7559 0.6295    0.1481
+                Item-Based KNN 0.3258 0.2649 0.1062    0.8041
+          Content-Based TF-IDF 0.5536 0.4721 0.3064    0.3926
+============================================================
+
+
+============================== CELL 25 OUTPUTS ==============================
+-- Output 0 (type: display_data) --
+[PNG Image data length: 173892]
+<Figure size 1200x800 with 4 Axes>
+-- Output 1 (type: stream) --
+Model comparison graphs saved!
+
+
+============================== CELL 26 OUTPUTS ==============================
+-- Output 0 (type: display_data) --
+[PNG Image data length: 165104]
+<Figure size 1500x1000 with 4 Axes>
+-- Output 1 (type: stream) --
+Training history graphs saved!
+
+
+============================== CELL 27 OUTPUTS ==============================
+-- Output 0 (type: display_data) --
+[PNG Image data length: 156824]
+<Figure size 1800x1000 with 6 Axes>
+-- Output 1 (type: stream) --
+Prediction distribution graphs saved!
+
+
+============================== CELL 28 OUTPUTS ==============================
+-- Output 0 (type: display_data) --
+[PNG Image data length: 219804]
+<Figure size 1800x1000 with 6 Axes>
+-- Output 1 (type: stream) --
+Prediction vs actual graphs saved!
+
+
+============================== CELL 29 OUTPUTS ==============================
+-- Output 0 (type: display_data) --
+[PNG Image data length: 90572]
+<Figure size 1600x1000 with 1 Axes>
+-- Output 1 (type: stream) --
+Architecture diagram saved!
+
+
+============================== CELL 30 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+Generating recommendations for all filtered recipes using Hybrid Ensemble Model...
+Generated recommendations for 716 recipes
+Top 5 recommended recipes:
+                                       Name  Calories  ProteinContent  \
+0                      sweet potato patties      62.3             2.4   
+1            kosher vegetarian tomato curry       0.0             0.0   
+2  baked beans, cheddar and pickle sandwich     468.2            22.5   
+3                        wild rice stuffing     249.2             8.2   
+4            roasted red pepper hummus soup     228.7             8.4   
+
+   FatContent  CarbohydrateContent  Hybrid_Score  
+0         1.1                 10.7      0.489778  
+1         0.0                  0.0      0.489700  
+2        16.8                 61.0      0.489606  
+3         4.6                 44.1      0.489427  
+4         8.8                 29.6      0.489399  
+
+
+============================== CELL 31 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+7-day personalized meal plan generated using Hybrid Ensemble Model!
+
+
+============================== CELL 32 OUTPUTS ==============================
+-- Output 0 (type: stream) --
+
+============================================================
+🍽️  DAY 1 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1421 kcal (Target: 1587, Diff: 10.5%)
+🔹 Protein: 38.9 g (Target: 119.0, Diff: 67.3%)
+🔹 Fat: 40.7 g (Target: 52.9, Diff: 23.1%)
+🔹 Carbs: 226.2 g (Target: 158.7, Diff: 42.5%)
+------------------------------------------------------------
+
+🥗 Meal 1: Fresh Corn Risotto
+   📊 Hybrid Score: 0.4891 | NCF: 0.4866 | Content: 0.7762
+   💪 332 kcal | Protein: 12.0 g | Fat: 11.1 g | Carbs: 47.5 g
+   📖 Instructions: Reserve 12 the quantity of kernels about 1 and 12 cups and puree the rest in a blender with some of the stockbroth Strain through a sieve and add this...
+------------------------------------------------------------
+🥗 Meal 2: Oven Baked Vegetarian Rice
+   📊 Hybrid Score: 0.4884 | NCF: 0.4853 | Content: 0.7412
+   💪 334 kcal | Protein: 6.6 g | Fat: 11.2 g | Carbs: 51.9 g
+   📖 Instructions: Preheat oven at 350 degrees chop veggies Mix all ingredients in a 2 quart casserole dish Bake for 1 hour For Vegetarian use Vegetable bouillon
+------------------------------------------------------------
+🥗 Meal 3: Amazingly Easy 15 Minute Pumpkin Quot; Risotto Quot;
+   📊 Hybrid Score: 0.4886 | NCF: 0.4862 | Content: 0.7797
+   💪 378 kcal | Protein: 11.3 g | Fat: 7.5 g | Carbs: 63.3 g
+   📖 Instructions: In a large saucepan melt the olive oil and butter together over medium high heat  Add onion and nutmeg and cook stirring often until the onion is limp...
+------------------------------------------------------------
+🥗 Meal 4: Norwegian Potato And Rye Pancake Flatbreads - Lefse
+   📊 Hybrid Score: 0.4887 | NCF: 0.4862 | Content: 0.7759
+   💪 133 kcal | Protein: 3.0 g | Fat: 0.4 g | Carbs: 30.3 g
+   📖 Instructions: Put the mashed potatoes into a large bowl and add the flour sugar and salt  mix well Add some water  bit by bit kneading well so it makes a pliable do...
+------------------------------------------------------------
+🥗 Meal 5: Kasha With Apricots
+   📊 Hybrid Score: 0.4884 | NCF: 0.4861 | Content: 0.7865
+   💪 54 kcal | Protein: 2.7 g | Fat: 1.8 g | Carbs: 7.4 g
+   📖 Instructions: In a small saucepan bring the broth to a boil over medium heat Meanwhile in a small bowl combine kasha with egg white and mix until thoroughly moisten...
+------------------------------------------------------------
+🥗 Meal 6: Amish Sweet And Sour Red Cabbage
+   📊 Hybrid Score: 0.4884 | NCF: 0.4859 | Content: 0.7761
+   💪 190 kcal | Protein: 3.3 g | Fat: 8.7 g | Carbs: 25.8 g
+   📖 Instructions: In a heavy saucepan  cook the bacon onion and apples over mediumlow heat until onions are limp about 3 minutes Add the cabbage Cook about 10 minutes u...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 2 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1279 kcal (Target: 1587, Diff: 19.4%)
+🔹 Protein: 57.0 g (Target: 119.0, Diff: 52.1%)
+🔹 Fat: 41.9 g (Target: 52.9, Diff: 20.8%)
+🔹 Carbs: 155.9 g (Target: 158.7, Diff: 1.8%)
+------------------------------------------------------------
+
+🥗 Meal 1: Costa Rican Stuffed Tortilla
+   📊 Hybrid Score: 0.4888 | NCF: 0.4860 | Content: 0.7595
+   💪 60 kcal | Protein: 1.5 g | Fat: 1.2 g | Carbs: 11.5 g
+   📖 Instructions: Cabbage Salad Mix all the ingredients together cabbage tomato coriander salt pepper and olive oil Make this slaw just before serving the tortillas Pla...
+------------------------------------------------------------
+🥗 Meal 2: All American County Fair Prize Winning Chili
+   📊 Hybrid Score: 0.4889 | NCF: 0.4864 | Content: 0.7764
+   💪 155 kcal | Protein: 12.9 g | Fat: 3.8 g | Carbs: 19.2 g
+   📖 Instructions: Put ALL ingredients in a pot and cook for 5 to 10 hours Stir occasionally Put the chili and jalapeno peppers in last with their stems sticking up out ...
+------------------------------------------------------------
+🥗 Meal 3: The Snowy Boulevard
+   📊 Hybrid Score: 0.4889 | NCF: 0.4857 | Content: 0.7352
+   💪 245 kcal | Protein: 6.0 g | Fat: 4.0 g | Carbs: 25.0 g
+   📖 Instructions: Pour vodka liqueur into a heatproof mug and top with hot chocolate Garnish with a homemade marshmallow or whipped cream For Vegetarian Option omit mar...
+------------------------------------------------------------
+🥗 Meal 4: Spaghetti Sauce
+   📊 Hybrid Score: 0.4887 | NCF: 0.4859 | Content: 0.7603
+   💪 51 kcal | Protein: 2.2 g | Fat: 0.3 g | Carbs: 11.9 g
+   📖 Instructions: Puree whole tomatoes in blender with onion and garlic Cook all cans of tomatoes in a large heavy pot adding all other ingredients except salt Bring to...
+------------------------------------------------------------
+🥗 Meal 5: Belly Buster
+   📊 Hybrid Score: 0.4884 | NCF: 0.4857 | Content: 0.7652
+   💪 562 kcal | Protein: 29.4 g | Fat: 19.1 g | Carbs: 67.5 g
+   📖 Instructions: This recipe can be made vegetarian leave out the hamburger and add 2 cups of fresh mixed vegetablesie broccoli mushroomsspinach carrots etc Cook elbow...
+------------------------------------------------------------
+🥗 Meal 6: Sauteed Greens
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7841
+   💪 62 kcal | Protein: 0.1 g | Fat: 6.8 g | Carbs: 0.5 g
+   📖 Instructions: Pour 12 inch of water into a large pot and bring to a boil Add greens cover and steam until wilted about a minute Drain and chop In a large skillet he...
+------------------------------------------------------------
+🥗 Meal 7: Canned Chunky Tomato And Vegetable Sauce
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7776
+   💪 84 kcal | Protein: 4.3 g | Fat: 0.9 g | Carbs: 18.4 g
+   📖 Instructions: Place 9 x 370ml jars with a wide neck in the dishwasher and wash at 6570 C around 149 F Dont wash the lids in the dishwasher if they are new just wash...
+------------------------------------------------------------
+🥗 Meal 8: Deviled Quorn
+   📊 Hybrid Score: 0.4885 | NCF: 0.4859 | Content: 0.7706
+   💪 59 kcal | Protein: 0.6 g | Fat: 5.8 g | Carbs: 1.9 g
+   📖 Instructions: Mix mustard Worcester sauce oil paprika and pepper together in bowl Add Quorn and mix to coat Leave for 12  1 hour not crucial Melt butter in grill pa...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 3 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1248 kcal (Target: 1587, Diff: 21.3%)
+🔹 Protein: 45.6 g (Target: 119.0, Diff: 61.7%)
+🔹 Fat: 51.7 g (Target: 52.9, Diff: 2.3%)
+🔹 Carbs: 157.8 g (Target: 158.7, Diff: 0.6%)
+------------------------------------------------------------
+
+🥗 Meal 1: Two For One Potato Skins And Casserole For Two
+   📊 Hybrid Score: 0.4886 | NCF: 0.4862 | Content: 0.7784
+   💪 443 kcal | Protein: 18.6 g | Fat: 31.4 g | Carbs: 22.5 g
+   📖 Instructions: Bake potato how ever you please I microwave it for 5 minutes flip the potato then microwave for five more Let potato cool then cut in half and scoop o...
+------------------------------------------------------------
+🥗 Meal 2: Thatbobbiegirl'S Better-Than-Campbells Green Pea Soup
+   📊 Hybrid Score: 0.4890 | NCF: 0.4864 | Content: 0.7724
+   💪 218 kcal | Protein: 14.7 g | Fat: 1.0 g | Carbs: 39.1 g
+   📖 Instructions: Combine everything in a large heavybottomed pot with a lid use one that holds at least 6 quarts Bring to a boil Reduce heat cover and simmer stirring ...
+------------------------------------------------------------
+🥗 Meal 3: Amish Sweet And Sour Red Cabbage
+   📊 Hybrid Score: 0.4884 | NCF: 0.4859 | Content: 0.7761
+   💪 190 kcal | Protein: 3.3 g | Fat: 8.7 g | Carbs: 25.8 g
+   📖 Instructions: In a heavy saucepan  cook the bacon onion and apples over mediumlow heat until onions are limp about 3 minutes Add the cabbage Cook about 10 minutes u...
+------------------------------------------------------------
+🥗 Meal 4: Spanish Rice
+   📊 Hybrid Score: 0.4884 | NCF: 0.4858 | Content: 0.7715
+   💪 121 kcal | Protein: 0.7 g | Fat: 9.2 g | Carbs: 8.9 g
+   📖 Instructions: To start you will need three main ingredients  You can add others to add more flavor or texture but the main three you need to make rice are  Oil rice...
+------------------------------------------------------------
+🥗 Meal 5: Zesty Sauce
+   📊 Hybrid Score: 0.4893 | NCF: 0.4858 | Content: 0.7249
+   💪 50 kcal | Protein: 2.3 g | Fat: 0.1 g | Carbs: 11.1 g
+   📖 Instructions: Mix together and heat till warm I use this on vegetarianchicken chunks but any chicken shrimp or vegies would be good
+------------------------------------------------------------
+🥗 Meal 6: Williamsburg Pumpkin Soup - Reduced Fat
+   📊 Hybrid Score: 0.4886 | NCF: 0.4854 | Content: 0.7400
+   💪 15 kcal | Protein: 0.4 g | Fat: 0.2 g | Carbs: 3.2 g
+   📖 Instructions: In saucepan cook onions in butter until brown Stir in soup you can use cream of mushroom for vegetarians pumpkin and seasonings Gradually add water He...
+------------------------------------------------------------
+🥗 Meal 7: Perfect Picnic Sandwich
+   📊 Hybrid Score: 0.4893 | NCF: 0.4865 | Content: 0.7567
+   💪 27 kcal | Protein: 0.8 g | Fat: 0.6 g | Carbs: 5.4 g
+   📖 Instructions: Mix all of these things together  other then the lunch meat and cheese The tomato mixture is similar to a brushchetta topping You can adapt the fillin...
+------------------------------------------------------------
+🥗 Meal 8: Potato Peel Stock
+   📊 Hybrid Score: 0.4885 | NCF: 0.4859 | Content: 0.7669
+   💪 181 kcal | Protein: 4.7 g | Fat: 0.3 g | Carbs: 41.2 g
+   📖 Instructions: Combine all ingredients in a pot and bring to a boil For vegetarian if using the broth option only use vegetable broth Lower heat and simmer for 112 h...
+------------------------------------------------------------
+🥗 Meal 9: Super Quick Hot Water Pastry
+   📊 Hybrid Score: 0.4884 | NCF: 0.4858 | Content: 0.7690
+   💪 4 kcal | Protein: 0.1 g | Fat: 0.2 g | Carbs: 0.6 g
+   📖 Instructions: Place flour in mixing bowl make a well in the center Put oil and hot water in cup or jug and pour onto flour Mix well until all flour is incorporated ...
+------------------------------------------------------------
+🥗 Meal 10: Kosher Vegetarian Tomato Curry
+   📊 Hybrid Score: 0.4897 | NCF: 0.4865 | Content: 0.7333
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Mix curry mix and water Saute vegetarian ground meat for 5 minute Add curry mixwater combination Saute combined curry for 510 minute until hot
+------------------------------------------------------------
+🥗 Meal 11: Stromboli
+   📊 Hybrid Score: 0.4889 | NCF: 0.4865 | Content: 0.7770
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Cook sausages by removing casing if there is one and placing sausages in a baking dish covered with marinara For Italian vegetarian sausage like Boca ...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 4 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1292 kcal (Target: 1587, Diff: 18.6%)
+🔹 Protein: 66.7 g (Target: 119.0, Diff: 44.0%)
+🔹 Fat: 53.1 g (Target: 52.9, Diff: 0.4%)
+🔹 Carbs: 146.3 g (Target: 158.7, Diff: 7.8%)
+------------------------------------------------------------
+
+🥗 Meal 1: All American County Fair Prize Winning Chili
+   📊 Hybrid Score: 0.4889 | NCF: 0.4864 | Content: 0.7764
+   💪 155 kcal | Protein: 12.9 g | Fat: 3.8 g | Carbs: 19.2 g
+   📖 Instructions: Put ALL ingredients in a pot and cook for 5 to 10 hours Stir occasionally Put the chili and jalapeno peppers in last with their stems sticking up out ...
+------------------------------------------------------------
+🥗 Meal 2: Gyro Burritos
+   📊 Hybrid Score: 0.4888 | NCF: 0.4861 | Content: 0.7649
+   💪 153 kcal | Protein: 9.7 g | Fat: 10.7 g | Carbs: 4.5 g
+   📖 Instructions: Mix the cucumber sauce a couple of hours ahead of time Mix the paste together and set aside Brown the hamburger or turkey add the paste and simmer for...
+------------------------------------------------------------
+🥗 Meal 3: Mexican Cornbread Casserole
+   📊 Hybrid Score: 0.4885 | NCF: 0.4858 | Content: 0.7626
+   💪 216 kcal | Protein: 7.4 g | Fat: 11.2 g | Carbs: 23.5 g
+   📖 Instructions: Preheat oven to 350° spray a 13 x 9 inch baking dish with cooking spray In a bowl mix together all the ingredients put mixture in the baking dish Bake...
+------------------------------------------------------------
+🥗 Meal 4: Krautfrekels
+   📊 Hybrid Score: 0.4884 | NCF: 0.4861 | Content: 0.7870
+   💪 493 kcal | Protein: 16.1 g | Fat: 13.1 g | Carbs: 81.0 g
+   📖 Instructions: Heat oil over mediumhigh heat in a large skillet or pot Saute onion stirring frequently for 3 minutes Add cabbage and continue cooking and stirring fo...
+------------------------------------------------------------
+🥗 Meal 5: Low Calorie Spinach Amp; Mushroom Wedding Soup
+   📊 Hybrid Score: 0.4887 | NCF: 0.4858 | Content: 0.7524
+   💪 136 kcal | Protein: 16.2 g | Fat: 5.3 g | Carbs: 6.1 g
+   📖 Instructions: Bring chicken broth to a simmer Add parmesan cheese and mushrooms to broth stir Continue to simmer for 35 minutes Add frozen spinach Allow to simmer f...
+------------------------------------------------------------
+🥗 Meal 6: New Mexico Chili Cook-Off
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7799
+   💪 23 kcal | Protein: 0.9 g | Fat: 0.1 g | Carbs: 5.2 g
+   📖 Instructions: CHILI  1  MIKES MANIAC MONSTER CHILI Judge  1   A little too heavy on the tomato Amusing kick Judge  2   Nice smooth tomato flavor Very mild Judge  3 ...
+------------------------------------------------------------
+🥗 Meal 7: Asian Tofu Loaf
+   📊 Hybrid Score: 0.4888 | NCF: 0.4862 | Content: 0.7688
+   💪 56 kcal | Protein: 2.9 g | Fat: 3.1 g | Carbs: 4.9 g
+   📖 Instructions: Preheat the oven to 350º Spray a 8x8 square baking pan with nonstick spray and set aside an 8x8 pan makes a crisper loaf Grind the sesame seeds into a...
+------------------------------------------------------------
+🥗 Meal 8: Deviled Quorn
+   📊 Hybrid Score: 0.4885 | NCF: 0.4859 | Content: 0.7706
+   💪 59 kcal | Protein: 0.6 g | Fat: 5.8 g | Carbs: 1.9 g
+   📖 Instructions: Mix mustard Worcester sauce oil paprika and pepper together in bowl Add Quorn and mix to coat Leave for 12  1 hour not crucial Melt butter in grill pa...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 5 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1172 kcal (Target: 1587, Diff: 26.2%)
+🔹 Protein: 36.0 g (Target: 119.0, Diff: 69.8%)
+🔹 Fat: 51.4 g (Target: 52.9, Diff: 2.9%)
+🔹 Carbs: 158.3 g (Target: 158.7, Diff: 0.3%)
+------------------------------------------------------------
+
+🥗 Meal 1: Whole Grain Wheat Bread
+   📊 Hybrid Score: 0.4893 | NCF: 0.4868 | Content: 0.7737
+   💪 159 kcal | Protein: 4.2 g | Fat: 3.0 g | Carbs: 29.8 g
+   📖 Instructions: Starter Dough Blend cooked grains and water in food processor or blender until creamy pour into a large mixing bowl Mix in oil salt and yeast Add enou...
+------------------------------------------------------------
+🥗 Meal 2: Gnocchi In Tomato Cream Sauce.
+   📊 Hybrid Score: 0.4887 | NCF: 0.4864 | Content: 0.7915
+   💪 314 kcal | Protein: 4.5 g | Fat: 27.0 g | Carbs: 17.2 g
+   📖 Instructions: Chop the onion carrot and celery Melt the butter in a large frying pan or pot and add the onion carrot and celery Cook until tender about 10 minutes P...
+------------------------------------------------------------
+🥗 Meal 3: Vegetarian Escudella (Andorra)
+   📊 Hybrid Score: 0.4886 | NCF: 0.4861 | Content: 0.7759
+   💪 134 kcal | Protein: 5.0 g | Fat: 4.5 g | Carbs: 19.9 g
+   📖 Instructions: Put the water in a big pan When it starts to boil add the onion carrot and zucchini Lower heat to medium and cook for 10 minutes Now add the beans dic...
+------------------------------------------------------------
+🥗 Meal 4: Papas Con Rajas (Potatoes And Peppers)
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7809
+   💪 266 kcal | Protein: 6.2 g | Fat: 8.7 g | Carbs: 44.5 g
+   📖 Instructions: Boil potatoes whole in salted water until done Put poblanos on a cookie sheet and broil until black  Turn and blacken on all sides  Remove poblanos an...
+------------------------------------------------------------
+🥗 Meal 5: Kosher Vegetarian Tomato Curry
+   📊 Hybrid Score: 0.4897 | NCF: 0.4865 | Content: 0.7333
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Mix curry mix and water Saute vegetarian ground meat for 5 minute Add curry mixwater combination Saute combined curry for 510 minute until hot
+------------------------------------------------------------
+🥗 Meal 6: Kasha With Apricots
+   📊 Hybrid Score: 0.4884 | NCF: 0.4861 | Content: 0.7865
+   💪 54 kcal | Protein: 2.7 g | Fat: 1.8 g | Carbs: 7.4 g
+   📖 Instructions: In a small saucepan bring the broth to a boil over medium heat Meanwhile in a small bowl combine kasha with egg white and mix until thoroughly moisten...
+------------------------------------------------------------
+🥗 Meal 7: Super Quick Hot Water Pastry
+   📊 Hybrid Score: 0.4884 | NCF: 0.4858 | Content: 0.7690
+   💪 4 kcal | Protein: 0.1 g | Fat: 0.2 g | Carbs: 0.6 g
+   📖 Instructions: Place flour in mixing bowl make a well in the center Put oil and hot water in cup or jug and pour onto flour Mix well until all flour is incorporated ...
+------------------------------------------------------------
+🥗 Meal 8: Pizza Fondue
+   📊 Hybrid Score: 0.4886 | NCF: 0.4861 | Content: 0.7778
+   💪 78 kcal | Protein: 6.0 g | Fat: 4.4 g | Carbs: 3.2 g
+   📖 Instructions: For dipping Breadsticks and cubes of crusty French or Italian bread Cook beef and garlic in large saucepan over medium heat until no longer pink Drain...
+------------------------------------------------------------
+🥗 Meal 9: Canned Chunky Tomato And Vegetable Sauce
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7776
+   💪 84 kcal | Protein: 4.3 g | Fat: 0.9 g | Carbs: 18.4 g
+   📖 Instructions: Place 9 x 370ml jars with a wide neck in the dishwasher and wash at 6570 C around 149 F Dont wash the lids in the dishwasher if they are new just wash...
+------------------------------------------------------------
+🥗 Meal 10: Spaghetti Sauce
+   📊 Hybrid Score: 0.4887 | NCF: 0.4859 | Content: 0.7603
+   💪 51 kcal | Protein: 2.2 g | Fat: 0.3 g | Carbs: 11.9 g
+   📖 Instructions: Puree whole tomatoes in blender with onion and garlic Cook all cans of tomatoes in a large heavy pot adding all other ingredients except salt Bring to...
+------------------------------------------------------------
+🥗 Meal 11: Perfect Picnic Sandwich
+   📊 Hybrid Score: 0.4893 | NCF: 0.4865 | Content: 0.7567
+   💪 27 kcal | Protein: 0.8 g | Fat: 0.6 g | Carbs: 5.4 g
+   📖 Instructions: Mix all of these things together  other then the lunch meat and cheese The tomato mixture is similar to a brushchetta topping You can adapt the fillin...
+------------------------------------------------------------
+🥗 Meal 12: Stromboli
+   📊 Hybrid Score: 0.4889 | NCF: 0.4865 | Content: 0.7770
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Cook sausages by removing casing if there is one and placing sausages in a baking dish covered with marinara For Italian vegetarian sausage like Boca ...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 6 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1144 kcal (Target: 1587, Diff: 27.9%)
+🔹 Protein: 36.4 g (Target: 119.0, Diff: 69.4%)
+🔹 Fat: 47.7 g (Target: 52.9, Diff: 9.8%)
+🔹 Carbs: 157.7 g (Target: 158.7, Diff: 0.6%)
+------------------------------------------------------------
+
+🥗 Meal 1: Homestyle Vegetable Soup
+   📊 Hybrid Score: 0.4886 | NCF: 0.4858 | Content: 0.7594
+   💪 186 kcal | Protein: 7.8 g | Fat: 1.8 g | Carbs: 39.2 g
+   📖 Instructions: Add broth to a large soup pot Add onions celery potatoes tomatoes cabbage green beans corn and carrots Bring mixture to a simmer Add black pepper Simm...
+------------------------------------------------------------
+🥗 Meal 2: Brussels Sprouts 'N Potatoes
+   📊 Hybrid Score: 0.4887 | NCF: 0.4865 | Content: 0.7900
+   💪 151 kcal | Protein: 4.6 g | Fat: 5.4 g | Carbs: 23.3 g
+   📖 Instructions: For the Brussels sprouts make sure they are cleaned and x on the stemor cut in half if large Melt butter margarine in a skillet and over medium heat c...
+------------------------------------------------------------
+🥗 Meal 3: Portuguese Squash Soup
+   📊 Hybrid Score: 0.4885 | NCF: 0.4857 | Content: 0.7578
+   💪 230 kcal | Protein: 7.2 g | Fat: 2.7 g | Carbs: 47.3 g
+   📖 Instructions: To a large pot add all of the vegetables spices oil and broth Add enough cold water to the pot to just cover the vegetables  Simmer the soup until the...
+------------------------------------------------------------
+🥗 Meal 4: Mushroom Loaf
+   📊 Hybrid Score: 0.4885 | NCF: 0.4859 | Content: 0.7708
+   💪 451 kcal | Protein: 16.0 g | Fat: 25.0 g | Carbs: 44.9 g
+   📖 Instructions: Preheat oven Gas mark 4180 degrees centigrade 350 degrees farenheit Chop mushrooms roughly Peel and chop onion Fry onion in the sunflower oil in a lar...
+------------------------------------------------------------
+🥗 Meal 5: Deviled Quorn
+   📊 Hybrid Score: 0.4885 | NCF: 0.4859 | Content: 0.7706
+   💪 59 kcal | Protein: 0.6 g | Fat: 5.8 g | Carbs: 1.9 g
+   📖 Instructions: Mix mustard Worcester sauce oil paprika and pepper together in bowl Add Quorn and mix to coat Leave for 12  1 hour not crucial Melt butter in grill pa...
+------------------------------------------------------------
+🥗 Meal 6: Kosher Vegetarian Tomato Curry
+   📊 Hybrid Score: 0.4897 | NCF: 0.4865 | Content: 0.7333
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Mix curry mix and water Saute vegetarian ground meat for 5 minute Add curry mixwater combination Saute combined curry for 510 minute until hot
+------------------------------------------------------------
+🥗 Meal 7: Sauteed Greens
+   📊 Hybrid Score: 0.4884 | NCF: 0.4860 | Content: 0.7841
+   💪 62 kcal | Protein: 0.1 g | Fat: 6.8 g | Carbs: 0.5 g
+   📖 Instructions: Pour 12 inch of water into a large pot and bring to a boil Add greens cover and steam until wilted about a minute Drain and chop In a large skillet he...
+------------------------------------------------------------
+🥗 Meal 8: Super Quick Hot Water Pastry
+   📊 Hybrid Score: 0.4884 | NCF: 0.4858 | Content: 0.7690
+   💪 4 kcal | Protein: 0.1 g | Fat: 0.2 g | Carbs: 0.6 g
+   📖 Instructions: Place flour in mixing bowl make a well in the center Put oil and hot water in cup or jug and pour onto flour Mix well until all flour is incorporated ...
+------------------------------------------------------------
+🥗 Meal 9: Stromboli
+   📊 Hybrid Score: 0.4889 | NCF: 0.4865 | Content: 0.7770
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Cook sausages by removing casing if there is one and placing sausages in a baking dish covered with marinara For Italian vegetarian sausage like Boca ...
+------------------------------------------------------------
+
+============================================================
+🍽️  DAY 7 MEAL PLAN (Generated by Hybrid Ensemble Model)
+============================================================
+🔹 Total Calories: 1430 kcal (Target: 1587, Diff: 9.9%)
+🔹 Protein: 88.1 g (Target: 119.0, Diff: 26.0%)
+🔹 Fat: 46.2 g (Target: 52.9, Diff: 12.7%)
+🔹 Carbs: 173.7 g (Target: 158.7, Diff: 9.4%)
+------------------------------------------------------------
+
+🥗 Meal 1: Fresh From The Garden Skillet
+   📊 Hybrid Score: 0.4886 | NCF: 0.4861 | Content: 0.7740
+   💪 229 kcal | Protein: 10.4 g | Fat: 17.1 g | Carbs: 10.0 g
+   📖 Instructions: Cut all veggies 14 12 inch thickness  make sure all uniform In electric skillet melt butter and blend in oil Crush garlic and brown slightly add in an...
+------------------------------------------------------------
+🥗 Meal 2: Whole Grain Wheat Bread
+   📊 Hybrid Score: 0.4893 | NCF: 0.4868 | Content: 0.7737
+   💪 159 kcal | Protein: 4.2 g | Fat: 3.0 g | Carbs: 29.8 g
+   📖 Instructions: Starter Dough Blend cooked grains and water in food processor or blender until creamy pour into a large mixing bowl Mix in oil salt and yeast Add enou...
+------------------------------------------------------------
+🥗 Meal 3: New England Baked Beans ( Crock Pot )
+   📊 Hybrid Score: 0.4885 | NCF: 0.4858 | Content: 0.7667
+   💪 560 kcal | Protein: 24.4 g | Fat: 2.0 g | Carbs: 116.1 g
+   📖 Instructions: Bring beans and 9 cups water to a boil reduce heat Simmer covered 1 12 hours Drain beans place in Crock Pot Stir in remaining ingredients Cover and co...
+------------------------------------------------------------
+🥗 Meal 4: Stromboli
+   📊 Hybrid Score: 0.4889 | NCF: 0.4865 | Content: 0.7770
+   💪 0 kcal | Protein: 0.0 g | Fat: 0.0 g | Carbs: 0.0 g
+   📖 Instructions: Cook sausages by removing casing if there is one and placing sausages in a baking dish covered with marinara For Italian vegetarian sausage like Boca ...
+------------------------------------------------------------
+🥗 Meal 5: Shannon'S Almost Like Arby'S Quesadilla
+   📊 Hybrid Score: 0.4887 | NCF: 0.4864 | Content: 0.7886
+   💪 145 kcal | Protein: 28.5 g | Fat: 1.7 g | Carbs: 2.9 g
+   📖 Instructions: Saute chicken in large skillet sprayed with no stick cooking spray Sprinkle with desired amount of mexican spices Cook until chicken is white inside a...
+------------------------------------------------------------
+🥗 Meal 6: Qormeh Sabzi
+   📊 Hybrid Score: 0.4888 | NCF: 0.4863 | Content: 0.7757
+   💪 337 kcal | Protein: 20.6 g | Fat: 22.4 g | Carbs: 14.9 g
+   📖 Instructions: Using a food processor process the herbs until very fine In two of the tbsp of oil cook the Qormeh Sabzi mix Parsley and Cilantro at high heat You wil...
+------------------------------------------------------------
+
