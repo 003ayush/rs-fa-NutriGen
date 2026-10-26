@@ -13,3 +13,14 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Research Paper files & draft assets (Private / Not for GitHub)
+*.docx
+*.tex
+NutriGen_IEEE*
+fig1_system_architecture.png
+fig2_subnetworks_architecture.png
+generate_architecture_diagrams.py
+generate_fig2_subnetworks.py
+generate_ieee_doc.py
+
